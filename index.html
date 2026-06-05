@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RSV Evidence Map — Immunization, Protection, and Correlates</title>
+<style>
+:root{--bg:#f7f7f4;--card:#ffffff;--ink:#1f2933;--muted:#607080;--line:#d9e0e6;--soft:#eef3f7;--accent:#34495e;--accent2:#516b82;--gap:#f2f2ee;--shadow:0 1px 4px rgba(0,0,0,.08)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.45}.wrap{max-width:1260px;margin:0 auto;padding:28px 20px 56px}.hero{background:linear-gradient(180deg,#fff,#f7fafc);border:1px solid var(--line);border-radius:18px;padding:24px 26px;box-shadow:var(--shadow)}h1{font-size:32px;line-height:1.15;margin:0 0 8px}.lead{font-size:16px;color:#354657;max-width:1050px;margin:0}.grid{display:grid;gap:14px}.cards{grid-template-columns:repeat(4,minmax(0,1fr));margin-top:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:var(--shadow)}.card h2,.card h3{margin:0 0 8px}.card h2{font-size:20px}.metric{font-size:28px;font-weight:800}.small{font-size:13px;color:var(--muted)}.section{margin-top:18px}.filters{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:10px}.filters .wide{grid-column:span 2}label{display:block;font-size:12px;font-weight:700;color:#4d5b66;margin-bottom:4px}input,select,button{font:inherit;border:1px solid var(--line);border-radius:10px;background:#fff;padding:9px 10px;min-height:40px;width:100%}button{cursor:pointer;background:var(--accent);color:#fff;border-color:var(--accent);font-weight:700}.button-row{display:flex;gap:10px;align-items:end}.button-row button{width:auto}.sources{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.source-item{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px}.source-item strong{display:block}.matrix-wrap{overflow:auto;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}table.matrix{width:100%;border-collapse:collapse;min-width:760px}table.matrix th,table.matrix td{border:1px solid var(--line);padding:10px;text-align:center;vertical-align:middle}table.matrix th:first-child{text-align:left;width:260px}.cell{cursor:pointer;font-weight:800;border-radius:8px;min-width:64px}.cell:hover{outline:3px solid rgba(52,73,94,.25)}.c0{background:#f7f7f4;color:#9aa5ad}.c1{background:#eaf1f6}.c2{background:#d6e4ee}.c3{background:#bfd4e2}.c4{background:#9fbdd0}.c5{background:#789fb9;color:white}.legend{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}.legend span{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:#607080}.sw{width:18px;height:18px;border-radius:4px;border:1px solid var(--line)}.records{display:grid;gap:10px}.record{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:var(--shadow)}.record h3{margin:0 0 6px;font-size:17px}.chips{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}.chip{font-size:12px;background:var(--soft);border:1px solid var(--line);padding:3px 7px;border-radius:999px;color:#465866}.record a{color:#135b8a}.warn{background:#fff7e6;border:1px solid #f0d394;color:#5d4312}.hidden{display:none}.error{background:#fee;border:1px solid #e99;padding:14px;border-radius:12px;color:#8a1f1f}.gap-list{columns:2;column-gap:28px}.gap-list li{break-inside:avoid;margin-bottom:8px}@media(max-width:900px){.cards{grid-template-columns:1fr 1fr}.filters{grid-template-columns:1fr}.filters .wide{grid-column:span 1}.sources{grid-template-columns:1fr}.gap-list{columns:1}}@media(max-width:560px){.cards{grid-template-columns:1fr}h1{font-size:26px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <h1>RSV Evidence Map: immunization, protection, and correlates</h1>
+    <p id="summary" class="lead">Rapid RSV evidence map: records are coded into a matrix by RSV evidence domain and evidence type. The seed map is source-backed; newly detected PubMed, medRxiv, ClinicalTrials.gov, CDC/ACIP, FDA, WHO, EMA, PHAC/NACI and UKHSA/JCVI records may be added automatically and labelled as not manually verified.</p>
+  </header>
+
+  <section class="grid cards" aria-label="Dashboard status">
+    <div class="card"><h2>Automated update status</h2><p id="statusLine" class="small">Version v0.2 · map as-of May 26, 2026</p></div>
+    <div class="card"><div id="totalRecords" class="metric">—</div><div class="small">coded evidence records</div></div>
+    <div class="card"><div id="visibleRecords" class="metric">—</div><div class="small">records visible after filters</div></div>
+    <div class="card"><div id="sourceGroups" class="metric">—</div><div class="small">source groups searched</div></div>
+  </section>
+
+  <section class="section card">
+    <h2>Sources searched</h2>
+    <p class="small">The automated workflow searches these source groups. Auto-added records are algorithmically classified and are not manually verified.</p>
+    <div id="sources" class="sources"></div>
+  </section>
+
+  <section class="section card">
+    <h2>Filter the map</h2>
+    <div class="filters">
+      <div class="wide"><label for="q">Search text</label><input id="q" placeholder="Search title, population, product, tags, finding..." /></div>
+      <div><label for="rowFilter">Evidence domain</label><select id="rowFilter"><option value="">All domains</option></select></div>
+      <div><label for="colFilter">Evidence type</label><select id="colFilter"><option value="">All evidence types</option></select></div>
+      <div><label for="popFilter">Population</label><select id="popFilter"><option value="">All populations</option></select></div>
+      <div><label for="prodFilter">Product / platform</label><select id="prodFilter"><option value="">All products/platforms</option></select></div>
+      <div><label for="dateBasis">Date basis</label><select id="dateBasis"><option value="evidence_update_date">Source published/updated</option><option value="map_record_updated">Map record updated</option></select></div>
+      <div><label for="datePreset">Updated since</label><select id="datePreset"><option value="">All dates</option><option value="week">1 week ago</option><option value="year">1 year ago</option><option value="custom">Custom date</option></select></div>
+      <div><label for="customDate">Selected/custom date</label><input id="customDate" type="date" /></div>
+      <div class="button-row"><button id="resetBtn" type="button">Reset</button><button id="copyBtn" type="button">Copy visible IDs</button></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Evidence matrix</h2>
+    <p class="small">Click a cell to filter to that domain/evidence-type intersection. Cell intensity indicates the number of matching records after current filters are applied.</p>
+    <div class="legend"><span><i class="sw c0"></i>0 / gap</span><span><i class="sw c1"></i>1</span><span><i class="sw c2"></i>2</span><span><i class="sw c3"></i>3–4</span><span><i class="sw c4"></i>5–7</span><span><i class="sw c5"></i>8+</span></div>
+    <div class="matrix-wrap"><table id="matrix" class="matrix"></table></div>
+  </section>
+
+  <section class="section">
+    <h2>Evidence records</h2>
+    <div id="records" class="records"></div>
+  </section>
+
+  <section class="section card">
+    <h2>Priority evidence gaps surfaced by the map</h2>
+    <ul id="gaps" class="gap-list"></ul>
+  </section>
+
+  <section class="section card">
+    <h2>Method and provenance</h2>
+    <p>This map codes records into a matrix by RSV evidence domain and evidence type. Product, population, outcome, source date, map update date and tags provide secondary facets.</p>
+    <p class="small">Records added by automated surveillance are rule-classified and should be interpreted as evidence signals, not verified study summaries. For clinical or policy decisions, inspect the source record and relevant official guidance. Generated from repository data. Version v0.2. For research scoping and evidence planning only; not clinical advice.</p>
+  </section>
+
+  <div id="loadError" class="error hidden"></div>
+</div>
+<script>
+const DATA_URL = 'data/rsv_evidence_map_data_v0_2.json?cacheBust=' + Date.now();
+const state = { data:null, filtered:[], cell:null };
+const $ = id => document.getElementById(id);
+function esc(s){return String(s ?? '').replace(/[&<>"']/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
+function fmtDate(s){if(!s)return '—'; const d=new Date(String(s)+'T00:00:00'); if(Number.isNaN(d.getTime())) return s; return d.toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'});} 
+function isoDaysAgo(n){const d=new Date(); d.setDate(d.getDate()-n); return d.toISOString().slice(0,10);} 
+function cellClass(n){return n===0?'c0':n===1?'c1':n===2?'c2':n<5?'c3':n<8?'c4':'c5';}
+function uniq(arr){return [...new Set(arr.filter(Boolean).map(x=>String(x).trim()).filter(Boolean))].sort((a,b)=>a.localeCompare(b));}
+function splitVals(s){return String(s||'').split(/[;|,]/).map(x=>x.trim()).filter(Boolean)}
+function addOptions(id, values){const el=$(id); values.forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;el.appendChild(o);});}
+function recordText(r){return Object.values(r).join(' ').toLowerCase();}
+function passesDate(r){const preset=$('datePreset').value; if(!preset) return true; let since = preset==='week'?isoDaysAgo(7):preset==='year'?isoDaysAgo(365):$('customDate').value; if(!since) return true; const basis=$('dateBasis').value; const val=String(r[basis]||'').slice(0,10); return val && val >= since;}
+function applyFilters(){
+  const q=$('q').value.trim().toLowerCase(), row=$('rowFilter').value, col=$('colFilter').value, pop=$('popFilter').value, prod=$('prodFilter').value;
+  state.filtered = state.data.records.filter(r => {
+    if(state.cell && (r.matrix_row!==state.cell.row || r.matrix_column!==state.cell.col)) return false;
+    if(row && r.matrix_row!==row) return false; if(col && r.matrix_column!==col) return false;
+    if(pop && !String(r.population||'').toLowerCase().includes(pop.toLowerCase())) return false;
+    if(prod && !String(r.product_platform||'').toLowerCase().includes(prod.toLowerCase())) return false;
+    if(q && !recordText(r).includes(q)) return false;
+    return passesDate(r);
+  });
+  renderMatrix(); renderRecords(); $('visibleRecords').textContent=state.filtered.length;
+}
+function renderStatus(){
+  const md=state.data.metadata||{}; $('summary').textContent = md.public_summary || $('summary').textContent;
+  const version=md.version||'v0.2'; const seed=md.seed_map_as_of_date || '2026-05-26'; $('statusLine').textContent = `Version ${version} · map as-of ${fmtDate(seed)}`;
+  $('totalRecords').textContent = state.data.records.length; $('sourceGroups').textContent=(state.data.method_sources||[]).length;
+}
+function renderSources(){
+  $('sources').innerHTML = (state.data.method_sources||[]).map(s=>`<div class="source-item"><strong>${esc(s.name)}</strong><div class="small">${esc(s.record_type||'')}</div><div>${esc(s.search_or_monitor||'')}</div><div class="small">${esc(s.automation||'')}</div></div>`).join('');
+}
+function renderMatrix(){
+  const rows=state.data.rows||uniq(state.data.records.map(r=>r.matrix_row)); const cols=state.data.columns||uniq(state.data.records.map(r=>r.matrix_column));
+  let html='<thead><tr><th>Evidence domain</th>'+cols.map(c=>`<th>${esc(c)}</th>`).join('')+'</tr></thead><tbody>';
+  for(const row of rows){html+=`<tr><th>${esc(row)}</th>`; for(const col of cols){const n=state.filtered.filter(r=>r.matrix_row===row&&r.matrix_column===col).length; html+=`<td><button class="cell ${cellClass(n)}" data-row="${esc(row)}" data-col="${esc(col)}" title="Filter to ${esc(row)} × ${esc(col)}">${n}</button></td>`;} html+='</tr>';}
+  html+='</tbody>'; $('matrix').innerHTML=html;
+  document.querySelectorAll('.cell').forEach(b=>b.addEventListener('click',()=>{state.cell={row:b.dataset.row,col:b.dataset.col}; $('rowFilter').value=''; $('colFilter').value=''; applyFilters(); window.scrollTo({top:$('records').offsetTop-20,behavior:'smooth'});}));
+}
+function renderRecords(){
+  const records = state.filtered.slice().sort((a,b)=>String(b.evidence_update_date||b.map_record_updated||'').localeCompare(String(a.evidence_update_date||a.map_record_updated||'')) || String(a.id).localeCompare(String(b.id)));
+  $('records').innerHTML = records.map(r=>`<article class="record"><h3>${esc(r.title||r.citation||r.id)}</h3><div class="small"><strong>${esc(r.id)}</strong> · ${esc(r.citation||'')} · ${esc(r.year||'')}</div><div class="chips"><span class="chip">${esc(r.matrix_row)}</span><span class="chip">${esc(r.matrix_column)}</span><span class="chip">${esc(r.population||'population not specified')}</span><span class="chip">${esc(r.product_platform||'platform not specified')}</span><span class="chip">source/update: ${esc(r.evidence_update_date||'—')}</span><span class="chip">map updated: ${esc(r.map_record_updated||'—')}</span></div><p>${esc(r.key_finding||'')}</p><p><strong>Signal:</strong> ${esc(r.evidence_signal||'')}</p><p><strong>Actionability:</strong> ${esc(r.actionability||'')}</p>${r.source_url?`<p><a href="${esc(r.source_url)}" target="_blank" rel="noopener">Open source</a></p>`:''}<div class="small">Tags: ${esc(r.tags||'')}</div></article>`).join('') || '<div class="record warn">No records match the current filters.</div>';
+}
+function renderGaps(){
+  const gaps=state.data.gaps||[]; $('gaps').innerHTML = gaps.slice(0,20).map(g=>`<li><strong>${esc(g.matrix_row||'')}</strong> × ${esc(g.matrix_column||'')}: ${esc(g.gap||'No coded records in current map cell.')}</li>`).join('') || '<li>No gap list available.</li>';
+}
+function initFilters(){
+  addOptions('rowFilter', state.data.rows||uniq(state.data.records.map(r=>r.matrix_row))); addOptions('colFilter', state.data.columns||uniq(state.data.records.map(r=>r.matrix_column)));
+  addOptions('popFilter', uniq(state.data.records.flatMap(r=>splitVals(r.population)).slice(0,500))); addOptions('prodFilter', uniq(state.data.records.flatMap(r=>splitVals(r.product_platform)).slice(0,500)));
+  ['q','rowFilter','colFilter','popFilter','prodFilter','dateBasis','datePreset','customDate'].forEach(id=>$(id).addEventListener('input',()=>{state.cell=null; applyFilters();}));
+  $('resetBtn').addEventListener('click',()=>{['q','rowFilter','colFilter','popFilter','prodFilter','datePreset','customDate'].forEach(id=>$(id).value=''); $('dateBasis').value='evidence_update_date'; state.cell=null; applyFilters();});
+  $('copyBtn').addEventListener('click',async()=>{const ids=state.filtered.map(r=>r.id).join('\n'); try{await navigator.clipboard.writeText(ids); $('copyBtn').textContent='Copied'; setTimeout(()=>$('copyBtn').textContent='Copy visible IDs',1200);}catch(e){alert(ids);}});
+}
+fetch(DATA_URL).then(r=>{if(!r.ok) throw new Error(`Could not load ${DATA_URL}: HTTP ${r.status}`); return r.json();}).then(data=>{state.data=data; state.filtered=data.records||[]; renderStatus(); renderSources(); initFilters(); renderGaps(); applyFilters();}).catch(err=>{$('loadError').classList.remove('hidden'); $('loadError').textContent='Dashboard data could not be loaded: '+err.message;});
+</script>
+</body>
+</html>
