@@ -1,0 +1,33 @@
+{
+  "run_date": "2026-06-05",
+  "lookback_days": 14,
+  "added_total": 40,
+  "source_results": [
+    {
+      "source": "PubMed",
+      "candidates": 79,
+      "added": 18
+    },
+    {
+      "source": "medRxiv",
+      "candidates": 0,
+      "added": 0
+    },
+    {
+      "source": "ClinicalTrials.gov",
+      "candidates": 1,
+      "added": 1
+    },
+    {
+      "source": "Crossref",
+      "candidates": 21,
+      "added": 21
+    },
+    {
+      "source": "Guidance/regulatory watchlist",
+      "candidates": 15,
+      "changes": 0,
+      "added": 0
+    }
+  ]
+}
