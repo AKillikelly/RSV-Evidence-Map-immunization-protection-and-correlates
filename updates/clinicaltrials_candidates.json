@@ -1,28 +1,28 @@
 {
-  "run_date": "2026-06-05",
+  "run_date": "2026-06-08",
   "candidate_count": 1,
   "candidates": [
     {
-      "id": "AUTO-CTGOV-NCT05655182",
-      "matrix_row": "Pediatric active-vaccine development & safety",
+      "id": "AUTO-CTGOV-NCT06684743",
+      "matrix_row": "Adult active vaccination",
       "matrix_column": "Human RCT / controlled trial",
       "year": 2026,
-      "citation": "NCT05655182; ClinicalTrials.gov auto-added",
-      "title": "A Study of BLB-201 RSV Vaccine in Infants and Children",
+      "citation": "NCT06684743; ClinicalTrials.gov auto-added",
+      "title": "Vaccine Effectiveness of a Bivalent RSV Prefusion F Protein-Based Vaccine for Preventing RSV Hospitalizations in Adults",
       "authors_source": "ClinicalTrials.gov",
       "study_design": "Automated source record; rule-classified",
-      "population": "Children / pediatric populations",
-      "product_platform": "Pediatric RSV vaccine candidate",
+      "population": "Adults / older adults",
+      "product_platform": "Adult RSV vaccine",
       "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "This Phase 1/2a trial is a randomized, placebo-controlled trial to evaluate the safety, tolerability and immunogenicity of two ascending doses (10\\^6 PFU and 10\\^7 PFU) of intranasal BLB-201 (a recombinant parainfluenza virus type 5) administered in infants (8-24 months of age) and children (18-59 months of age) who may or may not have had prior respiratory syncytial virus (RSV) infection.",
+      "key_finding": "The purpose of this pragmatic randomized trial is to evaluate the vaccine effectiveness of bivalent RSV prefusion F vaccine (RSV vaccine) in adults. Participants will be randomized 1:1 to either RSV vaccine or no RSV vaccine.",
       "evidence_signal": "Automated ClinicalTrials.gov inclusion; not manually verified.",
       "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://clinicaltrials.gov/study/NCT05655182",
-      "tags": "auto-added; ClinicalTrials.gov; NCT05655182",
-      "evidence_update_date": "2026-06-03",
+      "source_url": "https://clinicaltrials.gov/study/NCT06684743",
+      "tags": "auto-added; ClinicalTrials.gov; NCT06684743",
+      "evidence_update_date": "2026-05-29",
       "evidence_update_precision": "day",
       "evidence_update_basis": "ClinicalTrials.gov last-update/posted date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-06-05",
-  "candidate_count": 21,
+  "run_date": "2026-06-08",
+  "candidate_count": 23,
   "candidates": [
     {
       "id": "AUTO-CROSSREF-10-1001-jamanetworkopen-2026-16773",
@@ -22,29 +22,29 @@
       "evidence_update_date": "2026-06-05",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
-      "id": "AUTO-CROSSREF-10-1093-infdis-jiag276",
-      "matrix_row": "Adult active vaccination",
+      "id": "AUTO-CROSSREF-10-1080-13696998-2026-2682692",
+      "matrix_row": "Maternal vaccination & infant protection",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
-      "citation": "Crossref DOI 10.1093/infdis/jiag276; auto-added",
-      "title": "Impact of Low Community Circulation of Respiratory Syncytial Virus (RSV) on Immunity Debt against RSV in Adults During the COVID-19 Pandemic",
-      "authors_source": "Vasanthi Avadhanula; Juan Bournat; Laura L Ferlic-Stark; Nanette L Bond; Patricia L Santarcangelo; Letisha O Aideyan",
+      "citation": "Crossref DOI 10.1080/13696998.2026.2682692; auto-added",
+      "title": "Economic evaluation of a bivalent respiratory syncytial virus prefusion F vaccine for maternal vaccination in Sweden: cost-effectiveness and budget impact",
+      "authors_source": "Máté Szilcz; Parissa Naghipour; Ann-Charlotte Fridh; Katherina Zakikhany-Gilg; Andreas Palmborg; Samira Toghanian",
       "study_design": "Automated source record; rule-classified",
-      "population": "Adults / older adults",
-      "product_platform": "Adult RSV vaccine",
+      "population": "Pregnant people / infants",
+      "product_platform": "Maternal RSV vaccine / passive infant protection",
       "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Abstract \n                   \n                     Introduction \n                     The concept of immunity debt due to reduced circulation of RSV in adults is controversial. We questioned whether adults lost protective antibodies when RSV was not circulating in Houston during the SARS-CoV-2 pandemic. \n                   \n                   \n                     Methods \n                     We studied 100 adults (mean age 49; range 21-82) from a longitudinal cohort: 50 SARS-CoV-2 seronegative and 50 SARS-CoV-2 infected. They were followed from March-2020 to April-2021, when RSV was not in c …",
+      "key_finding": "Automated Crossref metadata record.",
       "evidence_signal": "Automated Crossref metadata inclusion; not manually verified.",
       "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://doi.org/10.1093/infdis/jiag276",
-      "tags": "auto-added; Crossref; DOI 10.1093/infdis/jiag276",
-      "evidence_update_date": "2026-05-25",
+      "source_url": "https://doi.org/10.1080/13696998.2026.2682692",
+      "tags": "auto-added; Crossref; DOI 10.1080/13696998.2026.2682692",
+      "evidence_update_date": "2026-06-08",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-1016-j-lanmic-2026-101353",
@@ -66,7 +66,7 @@
       "evidence_update_date": "2026-06-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-33321-cdi-2026-50-031",
@@ -88,7 +88,7 @@
       "evidence_update_date": "2026-05-26",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-3390-vaccines14060471",
@@ -110,7 +110,7 @@
       "evidence_update_date": "2026-05-25",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-1177-13591053261455879",
@@ -132,7 +132,7 @@
       "evidence_update_date": "2026-06-04",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-35259-isi-2026-76370",
@@ -154,7 +154,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-4254-wjh-v18-i5-118665",
@@ -176,7 +176,7 @@
       "evidence_update_date": "2026-05-27",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-2139-ssrn-6848942",
@@ -198,7 +198,7 @@
       "evidence_update_date": "2026-06-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-1016-j-lana-2026-101506",
@@ -220,7 +220,29 @@
       "evidence_update_date": "2026-07-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
+    },
+    {
+      "id": "AUTO-CROSSREF-10-18103-mra-2026-0213",
+      "matrix_row": "Infant monoclonal antibodies",
+      "matrix_column": "Evidence synthesis / guidance",
+      "year": 2026,
+      "citation": "Crossref DOI 10.18103/mra.2026.0213; auto-added",
+      "title": "Viral bronchiolitis in the era of monoclonal antibodies and vaccines against respiratory syncytial virus",
+      "authors_source": "Guillermo Zepeda; Marietta Nuñez Camara; Andrew Bush",
+      "study_design": "Automated source record; rule-classified",
+      "population": "Infants / young children",
+      "product_platform": "Long-acting monoclonal antibody",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "Automated Crossref metadata record.",
+      "evidence_signal": "Automated Crossref metadata inclusion; not manually verified.",
+      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
+      "source_url": "https://doi.org/10.18103/mra.2026.0213",
+      "tags": "auto-added; Crossref; DOI 10.18103/mra.2026.0213",
+      "evidence_update_date": "2026-01-01",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "Crossref metadata created date within automated lookback window",
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-1016-j-ahj-2026-107497",
@@ -242,7 +264,7 @@
       "evidence_update_date": "2026-06-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-1016-j-ajt-2026-05-2302",
@@ -264,7 +286,7 @@
       "evidence_update_date": "2026-06-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-32832-abdidos-v10i2-3451",
@@ -286,29 +308,29 @@
       "evidence_update_date": "2026-06-04",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
-      "id": "AUTO-CROSSREF-10-1016-j-vaccine-2026-128731",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "id": "AUTO-CROSSREF-10-1080-14760584-2026-2684962",
+      "matrix_row": "Adult active vaccination",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
-      "citation": "Crossref DOI 10.1016/j.vaccine.2026.128731; auto-added",
-      "title": "Modelling the impact of long-acting monoclonal antibody, maternal vaccine and hybrid programs of RSV immunisation in temperate Western Australia",
-      "authors_source": "Fiona Giannini; Alexandra B. Hogan; Christopher C. Blyth; Kathryn Glass; Hannah C. Moore",
+      "citation": "Crossref DOI 10.1080/14760584.2026.2684962; auto-added",
+      "title": "From burden to benefit: overcoming barriers to immunization in adults, with a focus on respiratory syncytial virus",
+      "authors_source": "Cláudia Vicente; Filipe Froes; Pier Luigi Lopalco; Catherine Heffernan; Ramin Nilforooshan; Friederike Martin",
       "study_design": "Automated source record; rule-classified",
-      "population": "Pregnant people / infants",
-      "product_platform": "Maternal RSV vaccine / passive infant protection",
+      "population": "Adults / older adults",
+      "product_platform": "Adult RSV vaccine",
       "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
       "key_finding": "Automated Crossref metadata record.",
       "evidence_signal": "Automated Crossref metadata inclusion; not manually verified.",
       "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://doi.org/10.1016/j.vaccine.2026.128731",
-      "tags": "auto-added; Crossref; DOI 10.1016/j.vaccine.2026.128731",
-      "evidence_update_date": "2026-06-01",
+      "source_url": "https://doi.org/10.1080/14760584.2026.2684962",
+      "tags": "auto-added; Crossref; DOI 10.1080/14760584.2026.2684962",
+      "evidence_update_date": "2026-06-08",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-1093-cid-ciag344",
@@ -330,7 +352,7 @@
       "evidence_update_date": "2026-06-04",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-33321-cdi-2026-50-034",
@@ -352,29 +374,29 @@
       "evidence_update_date": "2026-05-26",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
-      "id": "AUTO-CROSSREF-10-1002-jgf2-70131",
-      "matrix_row": "Policy, implementation & real-world evidence",
+      "id": "AUTO-CROSSREF-10-64898-2026-06-01-26354616",
+      "matrix_row": "Adult active vaccination",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
-      "citation": "Crossref DOI 10.1002/jgf2.70131; auto-added",
-      "title": "β‐Lactamase‐Producing\n                    <i>Haemophilus influenzae</i>\n                    Pneumonia in a 1‐Month‐Old Infant With Respiratory Syncytial Virus Bronchiolitis",
-      "authors_source": "Kazumasa Zensho; Naoki Nojima; Ryoma Hino; Naohi Isse",
+      "citation": "Crossref DOI 10.64898/2026.06.01.26354616; auto-added",
+      "title": "Spatiotemporal Dynamics of Human Metapneumovirus and Potential Impact of Respiratory Syncytial Virus Interventions in the United States",
+      "authors_source": "Ke Li; Stephanie Perniciaro; Jiye Kwon; Nathan D. Grubaugh; Daniel M. Weinberger; Virginia E. Pitzer",
       "study_design": "Automated source record; rule-classified",
-      "population": "Mixed / policy-relevant populations",
-      "product_platform": "RSV prevention product/platform not auto-specified",
+      "population": "Adults / older adults",
+      "product_platform": "Adult RSV vaccine",
       "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Automated Crossref metadata record.",
+      "key_finding": "Abstract \n                 Human metapneumovirus (HMPV) causes acute lower respiratory infections, primarily affecting young children and older adults, with seasonal outbreaks peaking annually in March or April in the United States and other temperate regions in the Northern hemisphere. However, the factors driving HMPV seasonality in the United States remain poorly understood. We analyzed laboratory-confirmed HMPV cases and age-specific emergency department visits across 10 US regions, fitting an age-stratified dynamic transmission model to assess spatiotemporal patterns and investigate the i …",
       "evidence_signal": "Automated Crossref metadata inclusion; not manually verified.",
       "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://doi.org/10.1002/jgf2.70131",
-      "tags": "auto-added; Crossref; DOI 10.1002/jgf2.70131",
-      "evidence_update_date": "2026-05-21",
+      "source_url": "https://doi.org/10.64898/2026.06.01.26354616",
+      "tags": "auto-added; Crossref; DOI 10.64898/2026.06.01.26354616",
+      "evidence_update_date": "2026-06-05",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-1007-s15010-026-02799-7",
@@ -396,7 +418,7 @@
       "evidence_update_date": "2026-06-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-2139-ssrn-6519842",
@@ -418,7 +440,29 @@
       "evidence_update_date": "2026-05-26",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
+    },
+    {
+      "id": "AUTO-CROSSREF-10-3389-fimmu-2026-1829916",
+      "matrix_row": "Adult active vaccination",
+      "matrix_column": "Evidence synthesis / guidance",
+      "year": 2026,
+      "citation": "Crossref DOI 10.3389/fimmu.2026.1829916; auto-added",
+      "title": "Evaluation of a strain Long human respiratory syncytial virus with M2–2 gene deletion in intranasally vaccinated BALB/c mice",
+      "authors_source": "Ri-gan Shu; Jie Jun; Yun-xuan Zheng; Dan-ning Yue; Hao Hu; Hua-wei Xu",
+      "study_design": "Automated source record; rule-classified",
+      "population": "Adults / older adults",
+      "product_platform": "Adult RSV vaccine",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "Background \n                     Human respiratory syncytial virus (RSV) is a leading cause of lower respiratory tract illness (LRTI) worldwide, particularly in infants, the elderly and immunocompromised individuals. Despite this substantial disease burden, no licensed pediatric vaccines are currently available for infants aged ≥ 6 months, highlighting an urgent need for effective immunization strategies. \n                   \n                   \n                     Methods \n                     \n                      Live-attenuated vaccines (LAVs) were developed and characterized based on RS …",
+      "evidence_signal": "Automated Crossref metadata inclusion; not manually verified.",
+      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
+      "source_url": "https://doi.org/10.3389/fimmu.2026.1829916",
+      "tags": "auto-added; Crossref; DOI 10.3389/fimmu.2026.1829916",
+      "evidence_update_date": "2026-06-08",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "Crossref metadata created date within automated lookback window",
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-1080-21645515-2026-2677993",
@@ -440,7 +484,7 @@
       "evidence_update_date": "2026-06-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     },
     {
       "id": "AUTO-CROSSREF-10-1099-jmm-0-002154",
@@ -462,7 +506,7 @@
       "evidence_update_date": "2026-06-05",
       "evidence_update_precision": "day",
       "evidence_update_basis": "Crossref metadata created date within automated lookback window",
-      "map_record_updated": "2026-06-05"
+      "map_record_updated": "2026-06-08"
     }
   ]
 }
