@@ -1,12 +1,12 @@
 {
-  "run_date": "2026-06-08",
+  "run_date": "2026-06-15",
   "lookback_days": 14,
-  "added_total": 25,
+  "added_total": 59,
   "source_results": [
     {
       "source": "PubMed",
-      "candidates": 77,
-      "added": 11
+      "candidates": 81,
+      "added": 39
     },
     {
       "source": "medRxiv",
@@ -20,14 +20,14 @@
     },
     {
       "source": "Crossref",
-      "candidates": 23,
-      "added": 5
+      "candidates": 33,
+      "added": 19
     },
     {
       "source": "Guidance/regulatory watchlist",
       "candidates": 15,
-      "changes": 8,
-      "added": 8
+      "changes": 7,
+      "added": 0
     }
   ]
 }

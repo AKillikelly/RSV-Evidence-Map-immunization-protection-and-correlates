@@ -1,28 +1,28 @@
 {
-  "run_date": "2026-06-08",
+  "run_date": "2026-06-15",
   "candidate_count": 1,
   "candidates": [
     {
-      "id": "AUTO-CTGOV-NCT06684743",
+      "id": "AUTO-CTGOV-NCT07643688",
       "matrix_row": "Adult active vaccination",
-      "matrix_column": "Human RCT / controlled trial",
+      "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
-      "citation": "NCT06684743; ClinicalTrials.gov auto-added",
-      "title": "Vaccine Effectiveness of a Bivalent RSV Prefusion F Protein-Based Vaccine for Preventing RSV Hospitalizations in Adults",
+      "citation": "NCT07643688; ClinicalTrials.gov auto-added",
+      "title": "Expression of Inflammatory Markers in the Course of Acute Respiratory Viral Infections",
       "authors_source": "ClinicalTrials.gov",
       "study_design": "Automated source record; rule-classified",
       "population": "Adults / older adults",
       "product_platform": "Adult RSV vaccine",
       "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "The purpose of this pragmatic randomized trial is to evaluate the vaccine effectiveness of bivalent RSV prefusion F vaccine (RSV vaccine) in adults. Participants will be randomized 1:1 to either RSV vaccine or no RSV vaccine.",
+      "key_finding": "Respiratory viral infections caused by influenza, respiratory syncytial virus (RSV), and SARS-CoV-2 remain major causes of morbidity, hospitalization, and mortality among older adults worldwide. Current antiviral therapies have limited effectiveness and generally require administration within the first 48 hours after symptom onset. Increasing evidence suggests that the programmed death receptor-1/programmed death ligand-1 (PD-1/PD-L1) immune checkpoint pathway plays an important role in the host immune response during acute viral respiratory infections. Upregulation of PD-L1 has been associate …",
       "evidence_signal": "Automated ClinicalTrials.gov inclusion; not manually verified.",
       "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://clinicaltrials.gov/study/NCT06684743",
-      "tags": "auto-added; ClinicalTrials.gov; NCT06684743",
-      "evidence_update_date": "2026-05-29",
+      "source_url": "https://clinicaltrials.gov/study/NCT07643688",
+      "tags": "auto-added; ClinicalTrials.gov; NCT07643688",
+      "evidence_update_date": "2026-06-11",
       "evidence_update_precision": "day",
       "evidence_update_basis": "ClinicalTrials.gov last-update/posted date within automated lookback window",
-      "map_record_updated": "2026-06-08"
+      "map_record_updated": "2026-06-15"
     }
   ]
 }
