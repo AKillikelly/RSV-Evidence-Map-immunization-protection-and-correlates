@@ -20,12 +20,23 @@ TODAY = date.today()
 START = TODAY - timedelta(days=LOOKBACK_DAYS)
 
 FIELDS = ['id','matrix_row','matrix_column','year','citation','title','authors_source','study_design','population','product_platform','outcome_domain','key_finding','evidence_signal','actionability','source_url','tags','evidence_update_date','evidence_update_precision','evidence_update_basis','map_record_updated']
-ROWS = ['Immune correlates & antigen design','Adult active vaccination','Maternal vaccination & infant protection','Infant monoclonal antibodies','Pediatric active-vaccine development & safety','Policy, implementation & real-world evidence']
+ROWS = ['Immune correlates & antigen design','Adult active vaccination','Booster studies','Maternal active vaccination','Infant passive immunization','Pediatric active vaccine safety/development','Policy, implementation & real-world evidence']
 COLS = ['Evidence synthesis / guidance','Human RCT / controlled trial','Observational / real-world','Translational / preclinical','Safety signal / surveillance']
 
-PUBMED_QUERY = '("Respiratory Syncytial Virus Infections"[Mesh] OR "respiratory syncytial virus"[tiab] OR RSV[tiab]) AND (vaccin*[tiab] OR immunization[tiab] OR immunisation[tiab] OR nirsevimab[tiab] OR clesrovimab[tiab] OR palivizumab[tiab] OR monoclonal[tiab] OR "prefusion F"[tiab] OR maternal[tiab] OR pregnan*[tiab] OR adult*[tiab] OR infant*[tiab] OR safety[tiab] OR effectiveness[tiab] OR efficacy[tiab] OR correlate*[tiab])'
-PREVENTION_TERMS = re.compile(r'\b(vaccin|immuni[sz]ation|nirsevimab|clesrovimab|palivizumab|monoclonal|prefusion|maternal|pregnan|adult|infant|safety|efficacy|effectiveness|correlate|antibody|prophylaxis|prevention)\b', re.I)
+PUBMED_QUERY = '("Respiratory Syncytial Virus Infections"[Mesh] OR "respiratory syncytial virus"[tiab] OR RSV[tiab]) AND (vaccin*[tiab] OR immunization[tiab] OR immunisation[tiab] OR nirsevimab[tiab] OR clesrovimab[tiab] OR palivizumab[tiab] OR monoclonal[tiab] OR "prefusion F"[tiab] OR maternal[tiab] OR pregnan*[tiab] OR adult*[tiab] OR infant*[tiab] OR safety[tiab] OR effectiveness[tiab] OR efficacy[tiab] OR correlate*[tiab] OR booster*[tiab] OR revaccin*[tiab] OR "repeat dose"[tiab] OR "additional dose"[tiab] OR waning[tiab] OR durability[tiab])'
+PREVENTION_TERMS = re.compile(r'\b(vaccin|immuni[sz]ation|nirsevimab|clesrovimab|palivizumab|monoclonal|prefusion|maternal|pregnan|adult|infant|safety|efficacy|effectiveness|correlate|antibody|prophylaxis|prevention|booster|revaccin|repeat[- ]dose|additional dose|waning|durability)\b', re.I)
 RSV_TERMS = re.compile(r'\b(respiratory syncytial virus|\brsv\b)\b', re.I)
+
+BOOSTER_ROW = 'Booster studies'
+ROW_ALIASES = {
+    'Maternal vaccination & infant protection': 'Maternal active vaccination',
+    'Infant monoclonal antibodies': 'Infant passive immunization',
+    'Pediatric active-vaccine development & safety': 'Pediatric active vaccine safety/development',
+}
+EXPLICIT_BOOSTER_TERMS = re.compile(r'\b(booster(?:s| dose| doses| vaccination| vaccinations)?|revaccin(?:ate|ated|ating|ation|ations)|re-vaccin(?:ate|ated|ating|ation|ations))\b', re.I)
+REPEAT_DOSE_TERMS = re.compile(r'\b(repeat(?:ed)?[- ]dose|additional dose|subsequent dose|annual revaccination|annual booster|redosing|re-dosing|re-dose)\b', re.I)
+ACTIVE_VACCINE_TERMS = re.compile(r'\b(vaccin|immuni[sz]|arexvy|abrysvo|mresvia|rsvpref3|mrna-1345|prefusion[- ]?f)\b', re.I)
+PASSIVE_PRODUCT_TERMS = re.compile(r'\b(nirsevimab|clesrovimab|palivizumab|monoclonal|beyfortus)\b', re.I)
 
 GUIDANCE_PAGES = [
     {'name':'CDC adult RSV vaccine clinical guidance','url':'https://www.cdc.gov/rsv/hcp/vaccine-clinical-guidance/adults.html','source_group':'CDC / ACIP'},
@@ -44,6 +55,65 @@ GUIDANCE_PAGES = [
     {'name':'UKHSA RSV vaccination programme','url':'https://www.gov.uk/government/collections/respiratory-syncytial-virus-rsv-vaccination-programme','source_group':'UKHSA / JCVI'},
     {'name':'JCVI statements and advice','url':'https://www.gov.uk/government/groups/joint-committee-on-vaccination-and-immunisation','source_group':'UKHSA / JCVI'},
 ]
+
+def is_booster_text(text: str) -> bool:
+    """Return True for active-vaccine booster or revaccination evidence.
+
+    Repeat-dose language alone is insufficient because it can refer to drug
+    dosing or a primary vaccine series. Passive monoclonal products are kept
+    in the infant passive-immunization row.
+    """
+    if PASSIVE_PRODUCT_TERMS.search(text):
+        return False
+    if EXPLICIT_BOOSTER_TERMS.search(text):
+        return True
+    return bool(REPEAT_DOSE_TERMS.search(text) and ACTIVE_VACCINE_TERMS.search(text))
+
+
+def ensure_map_rows(data: dict[str, Any]) -> bool:
+    """Canonicalize row labels and insert Booster studies after adult vaccination."""
+    changed = False
+    existing = data.get('rows') if isinstance(data.get('rows'), list) else []
+    canonical_existing = []
+    for row in existing:
+        canonical = ROW_ALIASES.get(str(row), str(row))
+        if canonical != row:
+            changed = True
+        if canonical and canonical not in canonical_existing:
+            canonical_existing.append(canonical)
+
+    ordered = list(ROWS)
+    for row in canonical_existing:
+        if row not in ordered:
+            ordered.append(row)
+    if existing != ordered:
+        data['rows'] = ordered
+        changed = True
+
+    for record in data.get('records', []):
+        old = record.get('matrix_row', '')
+        canonical = ROW_ALIASES.get(old, old)
+        if canonical != old:
+            record['matrix_row'] = canonical
+            changed = True
+    return changed
+
+
+def migrate_existing_booster_records(data: dict[str, Any]) -> int:
+    """Move explicit booster/revaccination records into the new row."""
+    moved = 0
+    fields = ('title','citation','study_design','product_platform','outcome_domain','key_finding','tags')
+    for record in data.get('records', []):
+        text = ' '.join(str(record.get(field, '')) for field in fields)
+        if is_booster_text(text) and record.get('matrix_row') != BOOSTER_ROW:
+            record['matrix_row'] = BOOSTER_ROW
+            tags = str(record.get('tags', '')).strip()
+            if 'booster studies' not in tags.lower():
+                record['tags'] = (tags + '; booster studies').strip('; ')
+            record['map_record_updated'] = TODAY.isoformat()
+            moved += 1
+    return moved
+
 
 def fetch(url: str, timeout: int = 25) -> bytes:
     req = urllib.request.Request(url, headers={'User-Agent':'rsv-evidence-map/1.0 (public GitHub Pages evidence map)'})
@@ -91,12 +161,13 @@ def existing_keys(data: dict[str, Any]) -> set[str]:
             if pmid: keys.add('pmid:'+pmid)
     return keys
 
-def classify(title: str, abstract: str = '', source: str = '') -> tuple[str, str, str, str, str]:
+def classify(title: str, abstract: str = '', source: str = '') -> tuple[str, str, str, str, str, str]:
     text = f'{title} {abstract} {source}'.lower()
-    if re.search(r'maternal|pregnan|birth|antenatal', text): row='Maternal vaccination & infant protection'; pop='Pregnant people / infants'; platform='Maternal RSV vaccine / passive infant protection'
-    elif re.search(r'nirsevimab|clesrovimab|palivizumab|monoclonal|beyfortus', text): row='Infant monoclonal antibodies'; pop='Infants / young children'; platform='Long-acting monoclonal antibody'
+    if is_booster_text(text): row=BOOSTER_ROW; pop='Previously immunized populations'; platform='RSV booster / revaccination strategy'
+    elif re.search(r'maternal|pregnan|birth|antenatal', text): row='Maternal active vaccination'; pop='Pregnant people / infants'; platform='Maternal RSV vaccine / passive infant protection'
+    elif re.search(r'nirsevimab|clesrovimab|palivizumab|monoclonal|beyfortus', text): row='Infant passive immunization'; pop='Infants / young children'; platform='Long-acting monoclonal antibody'
     elif re.search(r'older adult|adult|aged|elderly|arexvy|abrysvo|mresvia|mrna-1345|rsvpref3', text): row='Adult active vaccination'; pop='Adults / older adults'; platform='Adult RSV vaccine'
-    elif re.search(r'pediatric|paediatric|children|child|toddler', text) and re.search(r'vaccine|trial|safety|enhanced', text): row='Pediatric active-vaccine development & safety'; pop='Children / pediatric populations'; platform='Pediatric RSV vaccine candidate'
+    elif re.search(r'pediatric|paediatric|children|child|toddler', text) and re.search(r'vaccine|trial|safety|enhanced', text): row='Pediatric active vaccine safety/development'; pop='Children / pediatric populations'; platform='Pediatric RSV vaccine candidate'
     elif re.search(r'correlate|antigen|prefusion|neutraliz|immunogenic|antibody|epitope', text): row='Immune correlates & antigen design'; pop='Not population-specific / immunologic evidence'; platform='RSV F antigen / immune correlate'
     else: row='Policy, implementation & real-world evidence'; pop='Mixed / policy-relevant populations'; platform='RSV prevention product/platform not auto-specified'
     if re.search(r'guideline|recommendation|position paper|statement|systematic review|meta-analysis|review|policy|advisory|regulatory|crossref metadata|official guidance', text): col='Evidence synthesis / guidance'
@@ -201,7 +272,7 @@ def medrxiv(data, keys):
     return {'source':'medRxiv','candidates':len(candidates),'added':added}
 
 def clinicaltrials(data, keys):
-    term='RSV OR respiratory syncytial virus vaccine OR nirsevimab OR clesrovimab OR palivizumab'
+    term='RSV OR respiratory syncytial virus vaccine OR RSV booster OR RSV revaccination OR RSV repeat dose OR nirsevimab OR clesrovimab OR palivizumab'
     url='https://clinicaltrials.gov/api/v2/studies?'+urllib.parse.urlencode({'query.term':term,'format':'json','pageSize':'100'})
     b=safe_fetch(url); candidates=[]; added=0
     if b:
@@ -221,7 +292,7 @@ def clinicaltrials(data, keys):
 
 def crossref(data, keys):
     mail=os.getenv('CROSSREF_MAILTO','').strip()
-    params={'query.title':'respiratory syncytial virus RSV vaccine nirsevimab maternal','filter':f'from-created-date:{START.isoformat()},until-created-date:{TODAY.isoformat()}','rows':'50','select':'DOI,title,author,published-print,published-online,created,URL,container-title,abstract'}
+    params={'query.title':'respiratory syncytial virus RSV vaccine booster revaccination repeat dose nirsevimab maternal','filter':f'from-created-date:{START.isoformat()},until-created-date:{TODAY.isoformat()}','rows':'50','select':'DOI,title,author,published-print,published-online,created,URL,container-title,abstract'}
     if mail: params['mailto']=mail
     b=safe_fetch('https://api.crossref.org/works?'+urllib.parse.urlencode(params)); candidates=[]; added=0
     if b:
@@ -267,7 +338,9 @@ def guidance(data, keys):
 
 def main():
     UPDATES_DIR.mkdir(exist_ok=True)
-    data=load_data(); data.setdefault('rows', ROWS); data.setdefault('columns', COLS); data.setdefault('records', [])
+    data=load_data(); data.setdefault('columns', COLS); data.setdefault('records', [])
+    rows_changed = ensure_map_rows(data)
+    booster_records_moved = migrate_existing_booster_records(data)
     keys=existing_keys(data)
     results=[]
     for fn in [pubmed, medrxiv, clinicaltrials, crossref, guidance]:
@@ -280,12 +353,15 @@ def main():
     added_total=sum(int(r.get('added',0)) for r in results)
     md=data.setdefault('metadata',{})
     md['last_auto_inclusion_run']=TODAY.isoformat(); md['records_auto_added_last_run']=added_total
-    if added_total:
+    md['booster_row_enabled']=True
+    md['records_reclassified_to_booster_last_run']=booster_records_moved
+    if added_total or rows_changed or booster_records_moved:
         md['last_included_record_update']=TODAY.isoformat()
     md['candidate_records_found_last_run']=sum(int(r.get('candidates',0)) for r in results if str(r.get('candidates',0)).isdigit())
     save_data(data)
-    (UPDATES_DIR/'surveillance_status.json').write_text(json.dumps({'run_date':TODAY.isoformat(),'lookback_days':LOOKBACK_DAYS,'added_total':added_total,'source_results':results}, indent=2, ensure_ascii=False), encoding='utf-8')
-    print(json.dumps({'added_total':added_total,'source_results':results}, indent=2))
+    status={'run_date':TODAY.isoformat(),'lookback_days':LOOKBACK_DAYS,'added_total':added_total,'booster_row_added_or_reordered':rows_changed,'records_reclassified_to_booster':booster_records_moved,'source_results':results}
+    (UPDATES_DIR/'surveillance_status.json').write_text(json.dumps(status, indent=2, ensure_ascii=False), encoding='utf-8')
+    print(json.dumps(status, indent=2))
 
 if __name__ == '__main__':
     main()

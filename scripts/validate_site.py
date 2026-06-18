@@ -19,4 +19,6 @@ if not isinstance(records, list) or len(records) == 0:
     raise SystemExit('data file has no records')
 for key in ['rows','columns','method_sources']:
     if key not in data: raise SystemExit(f'data file missing {key}')
+if 'Booster studies' not in data.get('rows', []):
+    raise SystemExit('data file is missing the Booster studies evidence-domain row')
 print(f'Site validation passed: {len(records)} evidence records available.')
