@@ -15,7 +15,7 @@
 
 ## Core RSV prevention concepts
 
-The automated surveillance focuses on RSV evidence related to immunization, vaccination, monoclonal antibodies, maternal protection, infant protection, adult vaccination, vaccine efficacy/effectiveness, safety, implementation, and immune correlates.
+The automated surveillance focuses on RSV evidence related to immunization, vaccination, monoclonal antibodies, maternal protection, infant protection, adult vaccination, booster/revaccination and repeat-dose studies, durability and waning, vaccine efficacy/effectiveness, safety, implementation, and immune correlates.
 
 ## Important limitation
 
