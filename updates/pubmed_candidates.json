@@ -1,10 +1,10 @@
 {
-  "run_date": "2026-06-15",
-  "candidate_count": 81,
+  "run_date": "2026-06-18",
+  "candidate_count": 78,
   "candidates": [
     {
       "id": "AUTO-PUBMED-42268596",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Human RCT / controlled trial",
       "year": 2026,
       "citation": "PubMed 42268596; auto-added",
@@ -22,11 +22,11 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42258348",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Observational / real-world",
       "year": 2026,
       "citation": "PubMed 42258348; auto-added",
@@ -44,55 +44,33 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
-      "id": "AUTO-PUBMED-42231609",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "id": "AUTO-PUBMED-42257651",
+      "matrix_row": "Adult active vaccination",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
-      "citation": "PubMed 42231609; auto-added",
-      "title": "Assessing the willingness and preference of pregnant and postpartum women regarding RSV immunization for newborns in western China: A mixed-methods study.",
-      "authors_source": "Tingting Xie; Juping Shi; Xiaoping Zhang; Yawen Deng; Longzhu Zhu; Yinyan Gao",
+      "citation": "PubMed 42257651; auto-added",
+      "title": "From burden to benefit: overcoming barriers to immunization in adults, with a focus on respiratory syncytial virus.",
+      "authors_source": "Cláudia Vicente; Filipe Froes; Pier Luigi Lopalco; Catherine Heffernan; Ramin Nilforooshan; Friederike Martin",
       "study_design": "Automated source record; rule-classified",
-      "population": "Pregnant people / infants",
-      "product_platform": "Maternal RSV vaccine / passive infant protection",
+      "population": "Adults / older adults",
+      "product_platform": "Adult RSV vaccine",
       "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Respiratory syncytial virus (RSV) is a leading cause of pediatric lower respiratory tract infections, yet evidence on vaccine acceptance among Chinese pregnant and postpartum women remains limited. This study examines the willingness, preference and factors influencing neonatal RSV immunization among this population in Lanzhou City, China. The study used a convergent mixed-methods approach, including cross-sectional questionnaires and in-depth interviews, and data were processed through multiple regression analysis and thematic analysis. The results showed that the respondents' knowledge of RS …",
+      "key_finding": "Respiratory syncytial virus (RSV) is a leading cause of acute respiratory infection, with substantial morbidity and mortality in older adults, yet its impact in this population remains underrecognized compared with childhood RSV. Despite the availability of effective vaccines, RSV immunization in adults is underutilized, as observed for other vaccines. We summarize the RSV burden in adult populations and present clinical and real-world evidence supporting efficacy/effectiveness and safety of three approved RSV vaccines. We explore barriers to adult vaccine uptake - including limited awareness, …",
       "evidence_signal": "Automated PubMed inclusion; not manually verified.",
       "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42231609/",
-      "tags": "auto-added; PubMed; PMID 42231609",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42257651/",
+      "tags": "auto-added; PubMed; PMID 42257651",
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
-    },
-    {
-      "id": "AUTO-PUBMED-42223189",
-      "matrix_row": "Maternal vaccination & infant protection",
-      "matrix_column": "Observational / real-world",
-      "year": 2026,
-      "citation": "PubMed 42223189; auto-added",
-      "title": "Expenditures attributable to infant lower respiratory tract infection due to respiratory syncytial virus in the US: A real-world study using the PharMetrics Plus Database, 2015-2023.",
-      "authors_source": "Ahuva Averin; Amy W Law; Mark Atwood; Erin Quinn; Derek Weycker",
-      "study_design": "Automated source record; rule-classified",
-      "population": "Pregnant people / infants",
-      "product_platform": "Maternal RSV vaccine / passive infant protection",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "While several studies have reported the episodic expenditures attributable to lower respiratory tract illness due to respiratory syncytial virus (RSV-LRTI) among US infants, published estimates vary widely. Moreover, it is unknown whether expenditures due to infant RSV-LRTI vary relative to the RSV season or COVID-19 pandemic. A new study using a US healthcare claims database (2015-2023) was thus undertaken to estimate infant episodic expenditures attributable to RSV-LRTI requiring hospitalization or ambulatory care only, overall as well as by age at infection and gestational age in weeks (wGA …",
-      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
-      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42223189/",
-      "tags": "auto-added; PubMed; PMID 42223189",
-      "evidence_update_date": "2026-01-01",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42262201",
-      "matrix_row": "Infant monoclonal antibodies",
+      "matrix_row": "Infant passive immunization",
       "matrix_column": "Safety signal / surveillance",
       "year": 2026,
       "citation": "PubMed 42262201; auto-added",
@@ -110,7 +88,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42256620",
@@ -132,29 +110,29 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
-      "id": "AUTO-PUBMED-42224773",
+      "id": "AUTO-PUBMED-42299918",
       "matrix_row": "Adult active vaccination",
-      "matrix_column": "Human RCT / controlled trial",
+      "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
-      "citation": "PubMed 42224773; auto-added",
-      "title": "Safety, immunogenicity, and dose ranging of a bivalent respiratory syncytial virus and human metapneumovirus glycoprotein F-molecular clamp vaccine candidate in older adults: 1-month interim analysis of an ongoing randomised, observer-blind, placebo- and active-controlled, phase 1 trial.",
-      "authors_source": "Giovanni Della Cioppa; Nischal Sahai; Vincent Dodeur; Julie L Dutton; Christopher Moller; Jake S O'Donnell",
+      "citation": "PubMed 42299918; auto-added",
+      "title": "A Cross-Country Evaluation of Respiratory Syncytial Virus and Human Metapneumovirus Surveillance Systems: Identifying Gaps and Best Practices for Improved Disease Monitoring.",
+      "authors_source": "Oliver Martyn; Jill Devos; Pierre Bourron; Dina AbouElwafa; Olivier Vitoux; Thierry Rigoine de Fougerolles",
       "study_design": "Automated source record; rule-classified",
       "population": "Adults / older adults",
       "product_platform": "Adult RSV vaccine",
       "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Respiratory syncytial virus (RSV) and human metapneumovirus (hMPV) are important causes of acute respiratory tract disease in older adults. Multipathogen vaccines in ready-to-use liquid formulations are needed. VXB-241 is a recombinant RSV-hMPV unadjuvanted fully liquid vaccine candidate. This ongoing first-in-human randomised, placebo- and RSV vaccine active-controlled, observer-blind, dose-ranging trial is being conducted in older adults aged 60-83 years preceded by a few sentinel younger adults aged 18-40 years. On day 1, older adults were randomised to receive one of six intramuscular trea …",
+      "key_finding": "Respiratory syncytial virus (RSV) and human metapneumovirus (hMPV) are seasonal respiratory viruses that can cause severe outcomes, particularly in older adults; however, their burden remains under-captured. The World Health Organisation (WHO) recommends expanding surveillance over pathogens, such as RSV and hMPV, through the Mosaic Respiratory Surveillance Framework. Although COVID-19 accelerated RSV surveillance, similar advancements for hMPV are lacking. This study evaluated and compared RSV and hMPV surveillance across multiple countries. A comparative qualitative analysis of RSV and hMPV …",
       "evidence_signal": "Automated PubMed inclusion; not manually verified.",
       "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42224773/",
-      "tags": "auto-added; PubMed; PMID 42224773",
-      "evidence_update_date": "2026-01-11",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42299918/",
+      "tags": "auto-added; PubMed; PMID 42299918",
+      "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42285686",
@@ -176,11 +154,33 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
+    },
+    {
+      "id": "AUTO-PUBMED-42241813",
+      "matrix_row": "Infant passive immunization",
+      "matrix_column": "Observational / real-world",
+      "year": 2026,
+      "citation": "PubMed 42241813; auto-added",
+      "title": "Molecular and clinical characterization of respiratory syncytial virus genotypes in a medical centre in Central Taiwan across the COVID-19 era.",
+      "authors_source": "Wei-Hsuan Lee; Hung-Chieh Su; Ling-Ling Chen; Pei-Ching Wu; Mei-Chi Su; Hsiu-Hsien Lin",
+      "study_design": "Automated source record; rule-classified",
+      "population": "Infants / young children",
+      "product_platform": "Long-acting monoclonal antibody",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "Respiratory syncytial virus (RSV) is a leading cause of respiratory illness in young children. The COVID-19 pandemic profoundly altered RSV circulation, yet the regional molecular and structural characteristics of circulating RSV strains in Taiwan during this period remain incompletely characterized. We conducted a retrospective study of RSV infections identified by viral culture at a tertiary medical center in Central Taiwan from 2016 to 2023. Epidemiological patterns, clinical features, and outcomes were analyzed. A representative subset of culture-positive isolates underwent F and G gene se …",
+      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
+      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42241813/",
+      "tags": "auto-added; PubMed; PMID 42241813",
+      "evidence_update_date": "2026-01-01",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42238547",
-      "matrix_row": "Infant monoclonal antibodies",
+      "matrix_row": "Infant passive immunization",
       "matrix_column": "Observational / real-world",
       "year": 2026,
       "citation": "PubMed 42238547; auto-added",
@@ -198,7 +198,73 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
+    },
+    {
+      "id": "AUTO-PUBMED-42311194",
+      "matrix_row": "Adult active vaccination",
+      "matrix_column": "Evidence synthesis / guidance",
+      "year": 2026,
+      "citation": "PubMed 42311194; auto-added",
+      "title": "Respiratory syncytial virus infection in adults: Clinical manifestations, outcomes, and vaccines.",
+      "authors_source": "Ching-Hao Hsu; Yi-Tien Hsuan; Yu-Jiun Chan; Hsin-Pai Chen",
+      "study_design": "Automated source record; rule-classified",
+      "population": "Adults / older adults",
+      "product_platform": "Adult RSV vaccine",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "Respiratory syncytial virus (RSV) is an RNA virus transmitted via droplets and affects individuals across all age groups. Although RSV is increasingly being recognized as a key pathogen in adults, differentiating RSV infection from other acute viral infections solely on the basis of clinical features is challenging. Polymerase chain reaction is the gold standard for RSV detection. Notably, RSV accounts for 2% to 10% of all hospitalizations due to respiratory tract infections in adults. Among hospitalized adults with RSV infection, 18.9% require intensive care, experiencing a disease burden sim …",
+      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
+      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42311194/",
+      "tags": "auto-added; PubMed; PMID 42311194",
+      "evidence_update_date": "2026-01-19",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
+      "map_record_updated": "2026-06-18"
+    },
+    {
+      "id": "AUTO-PUBMED-42305605",
+      "matrix_row": "Immune correlates & antigen design",
+      "matrix_column": "Evidence synthesis / guidance",
+      "year": 2026,
+      "citation": "PubMed 42305605; auto-added",
+      "title": "Regulation of antiviral immunity by PD-1 during respiratory syncitial virus infection and upon vaccination.",
+      "authors_source": "Linmar Rodríguez-Guilarte; Constanza Méndez; M Fernanda Rojas; Patricia Pereira-Sánchez; Mariana Ríos; José T Muñoz",
+      "study_design": "Automated source record; rule-classified",
+      "population": "Not population-specific / immunologic evidence",
+      "product_platform": "RSV F antigen / immune correlate",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "Respiratory syncytial virus (RSV) induces a protective immune response shaped by regulatory pathways that control T cell function. The inhibitory receptor PD-1 is a central modulator of these processes. Here, we analyzed PD-1, LAG-3, and TIM-3 expression in CD8+ T cells during RSV infection and evaluated PD-1/PD-L1 modulation across different immunological contexts in mice. PD-1 expression progressively increased in lung CD8+ T cells at 5- and 9-day post-infection, accompanied by co-expression of LAG-3 and TIM-3, and elevated PD-L1 in epithelial and antigen-presenting cells. PD-1 modulation va …",
+      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
+      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42305605/",
+      "tags": "auto-added; PubMed; PMID 42305605",
+      "evidence_update_date": "2026-01-19",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
+      "map_record_updated": "2026-06-18"
+    },
+    {
+      "id": "AUTO-PUBMED-42312606",
+      "matrix_row": "Adult active vaccination",
+      "matrix_column": "Human RCT / controlled trial",
+      "year": 2026,
+      "citation": "PubMed 42312606; auto-added",
+      "title": "Effect of RSV Vaccine in Older Adults with Atrial Fibrillation: A Prespecified Analysis of the DAN-RSV Trial.",
+      "authors_source": "Caroline Espersen; Mats C H Lassen; Niklas Dyrby Johansen; Sine H Christensen; Negar Aliabadi; Kristoffer Grundtvig Skaarup",
+      "study_design": "Automated source record; rule-classified",
+      "population": "Adults / older adults",
+      "product_platform": "Adult RSV vaccine",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "Atrial fibrillation (AF) is a risk factor for respiratory syncytial virus (RSV)-related adverse cardiac events. This prespecified analysis of the DAN-RSV trial investigated RSVpreF vaccine effectiveness (VE) against respiratory and cardiovascular outcomes among older adults with and without AF. DAN-RSV was a pragmatic, open-label, individually randomized trial in Denmark during the 2024/2025 winter season. Adults ≥60 years were randomly assigned 1:1 to RSVpreF vaccine or no vaccine. Baseline and endpoint data were obtained from nationwide health registries. The primary endpoint was hospitaliza …",
+      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
+      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42312606/",
+      "tags": "auto-added; PubMed; PMID 42312606",
+      "evidence_update_date": "2026-01-18",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42281865",
@@ -220,7 +286,95 @@
       "evidence_update_date": "2026-01-18",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
+    },
+    {
+      "id": "AUTO-PUBMED-42307865",
+      "matrix_row": "Maternal active vaccination",
+      "matrix_column": "Observational / real-world",
+      "year": 2026,
+      "citation": "PubMed 42307865; auto-added",
+      "title": "Budget Impact of Strategies Involving RSVpreF and Nirsevimab to Protect Infants in Saudi Arabia Against Respiratory Syncytial Virus.",
+      "authors_source": "Adel S Alharbi; Nada Abu-Shraie; Hana Al Abdulkarim; Ibtisam H Alharbi; Ahuva Averin; Amy W Law",
+      "study_design": "Automated source record; rule-classified",
+      "population": "Pregnant people / infants",
+      "product_platform": "Maternal RSV vaccine / passive infant protection",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "Respiratory syncytial virus (RSV) manifesting as lower respiratory tract illness (LRTI; RSV-LRTI) has a significant clinical and economic impact for infants in the Kingdom of Saudi Arabia (KSA) and globally. We evaluated the budget impact (BI) of strategies involving maternal vaccine (RSVpreF) and single-dose monoclonal antibody (nirsevimab) to protect KSA infants against RSV-LRTI. A deterministic cohort model evaluated the clinical and economic burden of RSV-LRTI and the impact of interventions among five annual birth cohorts of infants aged < 1 year. Parameter values were estimated on the ba …",
+      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
+      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42307865/",
+      "tags": "auto-added; PubMed; PMID 42307865",
+      "evidence_update_date": "2026-01-17",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
+      "map_record_updated": "2026-06-18"
+    },
+    {
+      "id": "AUTO-PUBMED-42302931",
+      "matrix_row": "Adult active vaccination",
+      "matrix_column": "Human RCT / controlled trial",
+      "year": 2026,
+      "citation": "PubMed 42302931; auto-added",
+      "title": "Respiratory syncytial virus vaccination induces delayed but robust humoral and cellular immunity in patients receiving hemodialysis.",
+      "authors_source": "Moritz Anft; Krystallenia Paniskaki; Daniel Franz; Sarah Skrzypczyk; Sviatlana Kaliszczyk; Eva Kohut",
+      "study_design": "Automated source record; rule-classified",
+      "population": "Adults / older adults",
+      "product_platform": "Adult RSV vaccine",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "Respiratory syncytial virus (RSV) causes substantial morbidity in older adults. Patients receiving hemodialysis are particularly vulnerable due to impaired immunity and chronic healthcare exposure. Data on RSV vaccine immunogenicity in this population are lacking. We conducted an observational study of 20 patients receiving hemodialysis (median age 78.4 years; 55% female; median dialysis duration 23 months) who received a single dose of the RSV vaccine Arexvy. Blood samples were obtained at baseline and at weeks two, five, eight, 16, and 32. RSV-specific IgG was quantified by ELISA, and cellul …",
+      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
+      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42302931/",
+      "tags": "auto-added; PubMed; PMID 42302931",
+      "evidence_update_date": "2026-01-16",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
+      "map_record_updated": "2026-06-18"
+    },
+    {
+      "id": "AUTO-PUBMED-42302913",
+      "matrix_row": "Adult active vaccination",
+      "matrix_column": "Observational / real-world",
+      "year": 2026,
+      "citation": "PubMed 42302913; auto-added",
+      "title": "Factors associated with severe health outcomes among community-dwelling older adults hospitalized with respiratory syncytial virus.",
+      "authors_source": "Vajini N Atukorale; Jeffrey C Kwong; Alejandro Hernandez; Rahim Moineddin; Nelson Lee; Alexander Kopp",
+      "study_design": "Automated source record; rule-classified",
+      "population": "Adults / older adults",
+      "product_platform": "Adult RSV vaccine",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "We describe the burden of respiratory syncytial virus (RSV)-related hospitalization among community-dwelling older adults in the pre-vaccine era and identify factors associated with adverse hospital outcomes. We conducted a population-based retrospective cohort study among adults aged ≥50 years hospitalized with RSV, using linked laboratory and health administrative data in Ontario, Canada during 2017-2020. We used modified Poisson regression models to assess associations between 25 individual factors and four hospital-related outcomes (30-day mortality, intensive care unit [ICU] utilization, …",
+      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
+      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42302913/",
+      "tags": "auto-added; PubMed; PMID 42302913",
+      "evidence_update_date": "2026-01-16",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
+      "map_record_updated": "2026-06-18"
+    },
+    {
+      "id": "AUTO-PUBMED-42296834",
+      "matrix_row": "Adult active vaccination",
+      "matrix_column": "Human RCT / controlled trial",
+      "year": 2026,
+      "citation": "PubMed 42296834; auto-added",
+      "title": "Incidence of outcomes relevant to vaccine safety monitoring in the general population, after influenza vaccination, and after respiratory infections: a descriptive analysis of four US claims databases, 2022-2023.",
+      "authors_source": "Christopher Bush; Shaina Desai; Huabo Wang; Wei-Chun Hsu; E Claire Newbern; Astra Toyip",
+      "study_design": "Automated source record; rule-classified",
+      "population": "Adults / older adults",
+      "product_platform": "Adult RSV vaccine",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "Background incidence rates (IRs) of safety outcomes in the absence of vaccination of interest and IRs following the infection targeted by the vaccine, are integral for contextualizing vaccine benefit-risk. As new respiratory vaccines are developed, contemporaneous IR estimates for outcomes commonly assessed in vaccine safety surveillance are needed in the COVID-19 endemic era. This retrospective cohort study used four administrative claims data sources in the United States (HealthVerity Closed Claims, Optum's de-identified Clinformatics® Data Mart, Humana and Medicare Fee-For-Service) to estim …",
+      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
+      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42296834/",
+      "tags": "auto-added; PubMed; PMID 42296834",
+      "evidence_update_date": "2026-01-15",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42294873",
@@ -242,7 +396,7 @@
       "evidence_update_date": "2026-01-15",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42294538",
@@ -264,11 +418,11 @@
       "evidence_update_date": "2026-01-15",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42288825",
-      "matrix_row": "Infant monoclonal antibodies",
+      "matrix_row": "Infant passive immunization",
       "matrix_column": "Observational / real-world",
       "year": 2026,
       "citation": "PubMed 42288825; auto-added",
@@ -286,7 +440,7 @@
       "evidence_update_date": "2026-01-13",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42287539",
@@ -308,11 +462,11 @@
       "evidence_update_date": "2026-01-13",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42284808",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
       "citation": "PubMed 42284808; auto-added",
@@ -330,11 +484,11 @@
       "evidence_update_date": "2026-01-12",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42284362",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Observational / real-world",
       "year": 2026,
       "citation": "PubMed 42284362; auto-added",
@@ -352,7 +506,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42283854",
@@ -374,7 +528,7 @@
       "evidence_update_date": "2026-01-12",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42276095",
@@ -396,11 +550,11 @@
       "evidence_update_date": "2026-01-11",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42283477",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
       "citation": "PubMed 42283477; auto-added",
@@ -418,7 +572,7 @@
       "evidence_update_date": "2026-01-10",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42270893",
@@ -440,7 +594,7 @@
       "evidence_update_date": "2026-01-10",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42269839",
@@ -462,11 +616,11 @@
       "evidence_update_date": "2026-01-10",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42264881",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
       "citation": "PubMed 42264881; auto-added",
@@ -484,7 +638,7 @@
       "evidence_update_date": "2026-01-09",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42262426",
@@ -506,7 +660,7 @@
       "evidence_update_date": "2026-01-09",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42293985",
@@ -528,7 +682,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42281894",
@@ -550,7 +704,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42264212",
@@ -572,33 +726,11 @@
       "evidence_update_date": "2026-01-08",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
-    },
-    {
-      "id": "AUTO-PUBMED-42257651",
-      "matrix_row": "Adult active vaccination",
-      "matrix_column": "Evidence synthesis / guidance",
-      "year": 2026,
-      "citation": "PubMed 42257651; auto-added",
-      "title": "From burden to benefit: overcoming barriers to immunization in adults, with a focus on respiratory syncytial virus.",
-      "authors_source": "Cláudia Vicente; Filipe Froes; Pier Luigi Lopalco; Catherine Heffernan; Ramin Nilforooshan; Friederike Martin",
-      "study_design": "Automated source record; rule-classified",
-      "population": "Adults / older adults",
-      "product_platform": "Adult RSV vaccine",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Respiratory syncytial virus (RSV) is a leading cause of acute respiratory infection, with substantial morbidity and mortality in older adults, yet its impact in this population remains underrecognized compared with childhood RSV. Despite the availability of effective vaccines, RSV immunization in adults is underutilized, as observed for other vaccines. We summarize the RSV burden in adult populations and present clinical and real-world evidence supporting efficacy/effectiveness and safety of three approved RSV vaccines. We explore barriers to adult vaccine uptake - including limited awareness, …",
-      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
-      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42257651/",
-      "tags": "auto-added; PubMed; PMID 42257651",
-      "evidence_update_date": "2026-01-08",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42251842",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Human RCT / controlled trial",
       "year": 2026,
       "citation": "PubMed 42251842; auto-added",
@@ -616,7 +748,7 @@
       "evidence_update_date": "2026-01-07",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42263447",
@@ -638,7 +770,7 @@
       "evidence_update_date": "2026-01-06",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42251286",
@@ -660,7 +792,7 @@
       "evidence_update_date": "2026-01-06",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42249273",
@@ -682,7 +814,7 @@
       "evidence_update_date": "2026-01-06",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42250880",
@@ -704,11 +836,11 @@
       "evidence_update_date": "2026-01-05",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42246569",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
       "citation": "PubMed 42246569; auto-added",
@@ -726,11 +858,11 @@
       "evidence_update_date": "2026-01-05",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42246372",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
       "citation": "PubMed 42246372; auto-added",
@@ -748,7 +880,7 @@
       "evidence_update_date": "2026-01-05",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42282163",
@@ -770,7 +902,7 @@
       "evidence_update_date": "2026-01-04",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42248406",
@@ -792,7 +924,7 @@
       "evidence_update_date": "2026-01-04",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42242762",
@@ -814,11 +946,11 @@
       "evidence_update_date": "2026-01-04",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42240666",
-      "matrix_row": "Infant monoclonal antibodies",
+      "matrix_row": "Infant passive immunization",
       "matrix_column": "Human RCT / controlled trial",
       "year": 2026,
       "citation": "PubMed 42240666; auto-added",
@@ -836,7 +968,7 @@
       "evidence_update_date": "2026-01-04",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42240564",
@@ -858,11 +990,11 @@
       "evidence_update_date": "2026-01-04",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42240409",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Observational / real-world",
       "year": 2026,
       "citation": "PubMed 42240409; auto-added",
@@ -880,11 +1012,11 @@
       "evidence_update_date": "2026-01-04",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42285835",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
       "citation": "PubMed 42285835; auto-added",
@@ -902,7 +1034,7 @@
       "evidence_update_date": "2026-01-03",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42237243",
@@ -924,95 +1056,29 @@
       "evidence_update_date": "2026-01-03",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
-      "id": "AUTO-PUBMED-42231558",
-      "matrix_row": "Maternal vaccination & infant protection",
-      "matrix_column": "Observational / real-world",
-      "year": 2026,
-      "citation": "PubMed 42231558; auto-added",
-      "title": "Association between COVID-19 Vaccination during Pregnancy and Safety among Infants.",
-      "authors_source": "Elizabeth M Quincer; Gabriela Vazquez-Benitez; Eric S Weintraub; Kimp Walton; Lily Wang; Kimberly K Vesco",
-      "study_design": "Automated source record; rule-classified",
-      "population": "Pregnant people / infants",
-      "product_platform": "Maternal RSV vaccine / passive infant protection",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Vaccination during pregnancy prevents disease in both the pregnant woman and infant via transplacental antibody transfer which may interfere with infant immune response to early childhood vaccination. Data on safety of COVID-19 vaccination during pregnancy in relation to non-targeted infant infections are lacking. We conducted a retrospective cohort study of pregnancies from May 17, 2020, through February 15, 2021, across eight integrated healthcare systems in the Vaccine Safety Datalink to evaluate receipt of COVID-19 vaccination during second or third trimester of pregnancy on medically atte …",
-      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
-      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42231558/",
-      "tags": "auto-added; PubMed; PMID 42231558",
-      "evidence_update_date": "2026-01-03",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
-    },
-    {
-      "id": "AUTO-PUBMED-42241813",
-      "matrix_row": "Infant monoclonal antibodies",
-      "matrix_column": "Observational / real-world",
-      "year": 2026,
-      "citation": "PubMed 42241813; auto-added",
-      "title": "Molecular and clinical characterization of respiratory syncytial virus genotypes in a medical centre in Central Taiwan across the COVID-19 era.",
-      "authors_source": "Wei-Hsuan Lee; Hung-Chieh Su; Ling-Ling Chen; Pei-Ching Wu; Mei-Chi Su; Hsiu-Hsien Lin",
-      "study_design": "Automated source record; rule-classified",
-      "population": "Infants / young children",
-      "product_platform": "Long-acting monoclonal antibody",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Respiratory syncytial virus (RSV) is a leading cause of respiratory illness in young children. The COVID-19 pandemic profoundly altered RSV circulation, yet the regional molecular and structural characteristics of circulating RSV strains in Taiwan during this period remain incompletely characterized. We conducted a retrospective study of RSV infections identified by viral culture at a tertiary medical center in Central Taiwan from 2016 to 2023. Epidemiological patterns, clinical features, and outcomes were analyzed. A representative subset of culture-positive isolates underwent F and G gene se …",
-      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
-      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42241813/",
-      "tags": "auto-added; PubMed; PMID 42241813",
-      "evidence_update_date": "2026-01-02",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
-    },
-    {
-      "id": "AUTO-PUBMED-42229496",
-      "matrix_row": "Infant monoclonal antibodies",
-      "matrix_column": "Human RCT / controlled trial",
-      "year": 2026,
-      "citation": "PubMed 42229496; auto-added",
-      "title": "Real-world emergence of nirsevimab resistance in breakthrough infections with respiratory syncytial virus-B: a multicentre observational study in France.",
-      "authors_source": "Slim Fourati; Alawiya Reslan; Jérôme Bourret; Jean-Sébastien Casalegno; Yannis Rahou; Laurent Softic",
-      "study_design": "Automated source record; rule-classified",
-      "population": "Infants / young children",
-      "product_platform": "Long-acting monoclonal antibody",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Respiratory syncytial virus (RSV) is a leading cause of lower respiratory tract infection in infants. Nirsevimab, a long-acting monoclonal antibody targeting a conserved epitope on the prefusion F protein (site Φ), has shown high efficacy in clinical trials and early real-world studies. Although widespread resistance has not been reported, concerns remain about the emergence of escape variants, particularly among RSV-B viruses. During the 2024-25 RSV season in France, RSV-B predominated, providing a unique opportunity to examine breakthrough infections with RSV-B and resistance at a large scal …",
-      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
-      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42229496/",
-      "tags": "auto-added; PubMed; PMID 42229496",
-      "evidence_update_date": "2026-01-02",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
-    },
-    {
-      "id": "AUTO-PUBMED-42224700",
+      "id": "AUTO-PUBMED-42306508",
       "matrix_row": "Policy, implementation & real-world evidence",
-      "matrix_column": "Evidence synthesis / guidance",
+      "matrix_column": "Observational / real-world",
       "year": 2026,
-      "citation": "PubMed 42224700; auto-added",
-      "title": "Annals On Call - Who Should Receive the RSV Vaccine?",
-      "authors_source": "Robert M Centor; Rachael A Lee",
+      "citation": "PubMed 42306508; auto-added",
+      "title": "Epidemiology and subtype analysis of respiratory syncytial virus among hospitalized children under five in Isfahan during early 2024.",
+      "authors_source": "Forough Tavakoli; Sharareh Moghim; Vahid Salimi; Mohammad Ali Pourmirzaiee",
       "study_design": "Automated source record; rule-classified",
       "population": "Mixed / policy-relevant populations",
       "product_platform": "RSV prevention product/platform not auto-specified",
       "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Automated PubMed record.",
+      "key_finding": "Respiratory syncytial virus is the most common virus causing acute respiratory infections in children under 5 years old. We aimed to investigate the prevalence and circulating strains of RSV in hospitalized children in Isfahan. Between January and May 2024, children under 5 years of age were enrolled in this study. Nasal swabs were collected from 100 children with acute respiratory infections admitted to the referral pediatric ward at Imam Hossein Children's Hospital in Isfahan, Iran. The prevalence of circulating RSV was investigated using the RSV qPCR detection kit. The virus type was identi …",
       "evidence_signal": "Automated PubMed inclusion; not manually verified.",
       "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42224700/",
-      "tags": "auto-added; PubMed; PMID 42224700",
-      "evidence_update_date": "2026-01-02",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42306508/",
+      "tags": "auto-added; PubMed; PMID 42306508",
+      "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42287014",
@@ -1034,11 +1100,11 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42282568",
-      "matrix_row": "Infant monoclonal antibodies",
+      "matrix_row": "Infant passive immunization",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
       "citation": "PubMed 42282568; auto-added",
@@ -1056,7 +1122,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42277518",
@@ -1078,11 +1144,11 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42272191",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Observational / real-world",
       "year": 2026,
       "citation": "PubMed 42272191; auto-added",
@@ -1100,11 +1166,11 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42272143",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
       "citation": "PubMed 42272143; auto-added",
@@ -1122,7 +1188,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42267512",
@@ -1144,11 +1210,11 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42267066",
-      "matrix_row": "Infant monoclonal antibodies",
+      "matrix_row": "Infant passive immunization",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
       "citation": "PubMed 42267066; auto-added",
@@ -1166,11 +1232,11 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42266131",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Evidence synthesis / guidance",
       "year": 2026,
       "citation": "PubMed 42266131; auto-added",
@@ -1188,7 +1254,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42262706",
@@ -1210,11 +1276,11 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42254242",
-      "matrix_row": "Infant monoclonal antibodies",
+      "matrix_row": "Infant passive immunization",
       "matrix_column": "Human RCT / controlled trial",
       "year": 2026,
       "citation": "PubMed 42254242; auto-added",
@@ -1232,11 +1298,11 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42247233",
-      "matrix_row": "Maternal vaccination & infant protection",
+      "matrix_row": "Maternal active vaccination",
       "matrix_column": "Observational / real-world",
       "year": 2026,
       "citation": "PubMed 42247233; auto-added",
@@ -1254,7 +1320,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42246180",
@@ -1276,7 +1342,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42245230",
@@ -1298,95 +1364,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
-    },
-    {
-      "id": "AUTO-PUBMED-42232562",
-      "matrix_row": "Adult active vaccination",
-      "matrix_column": "Human RCT / controlled trial",
-      "year": 2026,
-      "citation": "PubMed 42232562; auto-added",
-      "title": "Donor-derived airway air-liquid interface model for high-throughput screening of antiviral combinations with concurrent analysis of antiviral efficacy and epithelial toxicity using ciliR.",
-      "authors_source": "Daniela Cardinale; Oriane Grant; Dani Do Hyang Lee; Samuel Ellis; Robert E Hynds; Richard Angell",
-      "study_design": "Automated source record; rule-classified",
-      "population": "Adults / older adults",
-      "product_platform": "Adult RSV vaccine",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Respiratory RNA viral infections significantly impact quality of life and productivity, in terms of both pandemics (e.g. severe acute respiratory syndrome coronavirus 2, influenza A viruses) and seasonal infections, such as respiratory syncytial virus (RSV). Globally, there are an estimated 33.8 million cases of RSV annually in children aged <5 years, leading to 2.8-4.3 million hospital admissions and up to 199 000 deaths. Human-relevant drug screening models are key to addressing the urgent need for effective antiviral treatments for RSV, particularly in vulnerable patient groups. Here, we pr …",
-      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
-      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42232562/",
-      "tags": "auto-added; PubMed; PMID 42232562",
-      "evidence_update_date": "2026-01-01",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
-    },
-    {
-      "id": "AUTO-PUBMED-42226285",
-      "matrix_row": "Policy, implementation & real-world evidence",
-      "matrix_column": "Observational / real-world",
-      "year": 2026,
-      "citation": "PubMed 42226285; auto-added",
-      "title": "Early and high Influenza A circulation alongside reduced Respiratory Syncytial Virus prevalence during autumn 2025 in paediatric patients attending emergency department.",
-      "authors_source": "Velia Chiara Di Maio; Rossana Scutari; Stefania Ranno; Luana Coltella; Venere Cortazzo; Luna Colagrossi",
-      "study_design": "Automated source record; rule-classified",
-      "population": "Mixed / policy-relevant populations",
-      "product_platform": "RSV prevention product/platform not auto-specified",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "The recent implementation of preventive strategies against Respiratory Syncytial Virus (RSV) in infants has raised questions about potential changes in RSV seasonality and the circulation of other respiratory viruses. This study aimed to compare respiratory virus activity among paediatric patients presenting to the Bambino Gesù Children's Hospital (Rome, Italy), with respiratory symptoms and available BioFire Respiratory Panel 2.1 plus results during September-December 2024 (N = 670) and 2025 (N = 905). RSV detection decreased significantly in December 2025 compared with the same period in 202 …",
-      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
-      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42226285/",
-      "tags": "auto-added; PubMed; PMID 42226285",
-      "evidence_update_date": "2026-01-01",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
-    },
-    {
-      "id": "AUTO-PUBMED-42223840",
-      "matrix_row": "Adult active vaccination",
-      "matrix_column": "Observational / real-world",
-      "year": 2026,
-      "citation": "PubMed 42223840; auto-added",
-      "title": "Respiratory syncytial virus in adults aged ≥ 50 years in France: a database and time-series modelling analysis (2014-2020).",
-      "authors_source": "Rachel M Reeves; Saskia Hagenaars; Rita Ammoun; Bénédicte Borsik; Xavier Colin; Maria João Fonseca",
-      "study_design": "Automated source record; rule-classified",
-      "population": "Adults / older adults",
-      "product_platform": "Adult RSV vaccine",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "This study aimed to quantify the burden of respiratory syncytial virus (RSV)- and influenza-attributed acute respiratory infections (ARI) in older adults in France. Modelling was applied to real-world data on ARI-attributed hospital admissions and in-hospital mortality to estimate pathogen-specific outcomes and investigate the underreporting of RSV in standard clinical practice. Additionally, healthcare resource utilisation was assessed. This retrospective, observational cohort study used routinely collected, secondary care data from the Programme National de Médicalisation des Systèmes d'Info …",
-      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
-      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42223840/",
-      "tags": "auto-added; PubMed; PMID 42223840",
-      "evidence_update_date": "2026-01-01",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
-    },
-    {
-      "id": "AUTO-PUBMED-42219049",
-      "matrix_row": "Adult active vaccination",
-      "matrix_column": "Human RCT / controlled trial",
-      "year": 2026,
-      "citation": "PubMed 42219049; auto-added",
-      "title": "A Pragmatic Randomized Trial to Evaluate the Vaccine Effectiveness of Bivalent RSV prefusion F Vaccine for Preventing RSV Hospitalizations in Adults (DAN-RSV): Trial Design Update.",
-      "authors_source": "Mats C Højbjerg Lassen; Sine H Christensen; Niklas D Johansen; Marat Yafasov; Manan Pareek; Abby E Rudolph",
-      "study_design": "Automated source record; rule-classified",
-      "population": "Adults / older adults",
-      "product_platform": "Adult RSV vaccine",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Respiratory syncytial virus (RSV) is a major cause of respiratory morbidity in adults, particularly among older individuals and those with comorbidities. The DAN-RSV trial was initiated to evaluate bivalent RSV prefusion F (RSVpreF) vaccine effectiveness in preventing RSV-related hospitalizations. DAN-RSV is a large-scale, pragmatic, randomized clinical trial that enrolled participants during the 2024/2025 (Danish adults aged ≥60 years) and 2025/2026 (adults aged ≥18 years in Denmark and Galicia, Spain) Northern hemisphere winter seasons. In Denmark, nationwide registries and the national elec …",
-      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
-      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42219049/",
-      "tags": "auto-added; PubMed; PMID 42219049",
-      "evidence_update_date": "2026-01-30",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42243031",
@@ -1408,7 +1386,7 @@
       "evidence_update_date": "2026-01-29",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42292474",
@@ -1430,7 +1408,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42292414",
@@ -1452,7 +1430,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42290747",
@@ -1474,7 +1452,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42279045",
@@ -1496,7 +1474,7 @@
       "evidence_update_date": "2026-01-28",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42256220",
@@ -1518,7 +1496,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42254868",
@@ -1540,7 +1518,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42239540",
@@ -1562,7 +1540,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42238416",
@@ -1584,51 +1562,7 @@
       "evidence_update_date": "2026-01-18",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
-    },
-    {
-      "id": "AUTO-PUBMED-42232626",
-      "matrix_row": "Policy, implementation & real-world evidence",
-      "matrix_column": "Safety signal / surveillance",
-      "year": 2026,
-      "citation": "PubMed 42232626; auto-added",
-      "title": "Case Report: Multiple organ dysfunction syndrome in a preterm infant secondary to respiratory syncytial virus and bacterial co-infection.",
-      "authors_source": "Xue Han; Li Zhang; Rui Zhang; Wenli Liu",
-      "study_design": "Automated source record; rule-classified",
-      "population": "Mixed / policy-relevant populations",
-      "product_platform": "RSV prevention product/platform not auto-specified",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "This article reports a case of a 1-month 11-day-old preterm infant, born at 36 + 6 weeks gestation, who presented to an outside hospital emergency department with a persistent cough that had not improved over four days. During this period, the infant progressively developed respiratory distress and lethargy. The infant subsequently developed cardiopulmonary arrest, underwent cardiopulmonary resuscitation, and was transferred to our hospital under endotracheal intubation with positive pressure ventilation. Respiratory pathogen polymerase chain reaction testing of a throat swab was positive for …",
-      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
-      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42232626/",
-      "tags": "auto-added; PubMed; PMID 42232626",
-      "evidence_update_date": "2026-01-01",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
-    },
-    {
-      "id": "AUTO-PUBMED-42220996",
-      "matrix_row": "Policy, implementation & real-world evidence",
-      "matrix_column": "Observational / real-world",
-      "year": 2026,
-      "citation": "PubMed 42220996; auto-added",
-      "title": "Analysis of the epidemic situation of respiratory pathogens in central and southern China before and after the COVID-19 pandemic.",
-      "authors_source": "Zhuoya Xiao; Linfei Yang; Ting Shi; Yuqi She; Zhimin Wan; Yufang Hu",
-      "study_design": "Automated source record; rule-classified",
-      "population": "Mixed / policy-relevant populations",
-      "product_platform": "RSV prevention product/platform not auto-specified",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Respiratory tract infection is a common disease leading to pediatric hospitalization, exhibiting different epidemiological trends with seasons and ages. This study retrospectively analyzed the infection status of 12 respiratory pathogens from 2018 to 2023, and examined the changes before and after the COVID-19 pandemic. A total of 51,597 hospitalized children with suspected respiratory tract infection, who underwent multiplex PCR testing in a tertiary hospital in Changsha from 2018 to 2023 were included. Testing items included respiratory syncytial virus, adenovirus, influenza virus, parainflu …",
-      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
-      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42220996/",
-      "tags": "auto-added; PubMed; PMID 42220996",
-      "evidence_update_date": "2026-01-01",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42292013",
@@ -1650,7 +1584,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42238135",
@@ -1672,29 +1606,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
-    },
-    {
-      "id": "AUTO-PUBMED-42226870",
-      "matrix_row": "Policy, implementation & real-world evidence",
-      "matrix_column": "Evidence synthesis / guidance",
-      "year": 2026,
-      "citation": "PubMed 42226870; auto-added",
-      "title": "Triple Viral Respiratory Co-Infection With Respiratory Syncytial Virus (RSV), Human Metapneumovirus (HMPV), and Influenza A (H1N1) Leading to Acute Respiratory Distress Syndrome (ARDS) in an Infant: A Case Report.",
-      "authors_source": "Mohammed Hatimi; Nora Touyar; Ghizlane El Amin; Amal Zouaki; Soukayna Jebbar; Saad Elharrak",
-      "study_design": "Automated source record; rule-classified",
-      "population": "Mixed / policy-relevant populations",
-      "product_platform": "RSV prevention product/platform not auto-specified",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Viral respiratory infections are a major cause of morbidity in pediatrics. We report a rare case of triple infection with respiratory syncytial virus (RSV), human metapneumovirus (HMPV), and influenza A (H1N1) in a previously healthy nine-month-old infant, complicated by acute respiratory distress syndrome (ARDS). The patient presented with severe respiratory distress, elevated inflammatory markers, and bilateral alveolar infiltrates, requiring non-invasive ventilation. A point-of-care multiplex PCR using the BioFire® Respiratory Panel 2.1 plus (RP2.1plus; bioMérieux, Marcy-l'Étoile, France) d …",
-      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
-      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42226870/",
-      "tags": "auto-added; PubMed; PMID 42226870",
-      "evidence_update_date": "2026-01-01",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42256706",
@@ -1716,7 +1628,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42266526",
@@ -1738,7 +1650,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42246298",
@@ -1760,7 +1672,7 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     },
     {
       "id": "AUTO-PUBMED-42238043",
@@ -1782,7 +1694,29 @@
       "evidence_update_date": "2026-01-01",
       "evidence_update_precision": "day",
       "evidence_update_basis": "PubMed Entrez date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
+    },
+    {
+      "id": "AUTO-PUBMED-42306882",
+      "matrix_row": "Infant passive immunization",
+      "matrix_column": "Evidence synthesis / guidance",
+      "year": 2026,
+      "citation": "PubMed 42306882; auto-added",
+      "title": "Reduction in Respiratory Syncytial Virus (RSV)-Related Outpatient and Inpatient Cases Among Infants During the Initial 2024/2025 Season Following Nirsevimab Recommendation in Germany.",
+      "authors_source": "Wei Cai; Isabelle Maronde; Sophie Köndgen; Barbara Biere; Silke Buda; Brunhilde Schweiger",
+      "study_design": "Automated source record; rule-classified",
+      "population": "Infants / young children",
+      "product_platform": "Long-acting monoclonal antibody",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "After introducing nirsevimab during the 2024/2025 respiratory syncytial virus (RSV) season in Germany, RSV activity in infants under 1 year dropped by 50% in primary care and 50%-70% in secondary care. Inpatients under 6 months showed the greatest reduction. RSV severity decreased with fewer RSV-associated ICU admissions and shorter hospital stays. RSV sequence analysis identified four known polymorphisms in the nirsevimab binding site among inpatients; none associated with resistance. These findings indicate that nirsevimab effectively reduced medically attended RSV disease in infants.",
+      "evidence_signal": "Automated PubMed inclusion; not manually verified.",
+      "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42306882/",
+      "tags": "auto-added; PubMed; PMID 42306882",
+      "evidence_update_date": "2026-01-01",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "PubMed Entrez date within automated lookback window",
+      "map_record_updated": "2026-06-18"
     }
   ]
 }

@@ -1,28 +1,28 @@
 {
-  "run_date": "2026-06-15",
+  "run_date": "2026-06-18",
   "candidate_count": 1,
   "candidates": [
     {
-      "id": "AUTO-CTGOV-NCT07643688",
-      "matrix_row": "Adult active vaccination",
-      "matrix_column": "Evidence synthesis / guidance",
+      "id": "AUTO-CTGOV-NCT04782336",
+      "matrix_row": "Policy, implementation & real-world evidence",
+      "matrix_column": "Human RCT / controlled trial",
       "year": 2026,
-      "citation": "NCT07643688; ClinicalTrials.gov auto-added",
-      "title": "Expression of Inflammatory Markers in the Course of Acute Respiratory Viral Infections",
+      "citation": "NCT04782336; ClinicalTrials.gov auto-added",
+      "title": "Sample Collection Study to Aid Evaluation of an Influenza A/B, Respiratory Syncytial Virus & COVID-19 Virus POC Test",
       "authors_source": "ClinicalTrials.gov",
       "study_design": "Automated source record; rule-classified",
-      "population": "Adults / older adults",
-      "product_platform": "Adult RSV vaccine",
+      "population": "Mixed / policy-relevant populations",
+      "product_platform": "RSV prevention product/platform not auto-specified",
       "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Respiratory viral infections caused by influenza, respiratory syncytial virus (RSV), and SARS-CoV-2 remain major causes of morbidity, hospitalization, and mortality among older adults worldwide. Current antiviral therapies have limited effectiveness and generally require administration within the first 48 hours after symptom onset. Increasing evidence suggests that the programmed death receptor-1/programmed death ligand-1 (PD-1/PD-L1) immune checkpoint pathway plays an important role in the host immune response during acute viral respiratory infections. Upregulation of PD-L1 has been associate …",
+      "key_finding": "Collection of Nasal Swabs, Throat Swabs and Saliva Samples from patients presenting at their designated care or testing facility displaying symptoms of either Influenza, Respiratory Syncytial Virus (RSV), SARS-CoV-2 or those who have been in recent contact with SARS-CoV-2 positive patients. Collected samples will aid the development, calibration and performance evaluation of the LumiraDx POC Test.",
       "evidence_signal": "Automated ClinicalTrials.gov inclusion; not manually verified.",
       "actionability": "Rule-classified automated evidence signal. Inspect the source record before clinical, policy, or research decisions.",
-      "source_url": "https://clinicaltrials.gov/study/NCT07643688",
-      "tags": "auto-added; ClinicalTrials.gov; NCT07643688",
-      "evidence_update_date": "2026-06-11",
+      "source_url": "https://clinicaltrials.gov/study/NCT04782336",
+      "tags": "auto-added; ClinicalTrials.gov; NCT04782336",
+      "evidence_update_date": "2026-06-15",
       "evidence_update_precision": "day",
       "evidence_update_basis": "ClinicalTrials.gov last-update/posted date within automated lookback window",
-      "map_record_updated": "2026-06-15"
+      "map_record_updated": "2026-06-18"
     }
   ]
 }
