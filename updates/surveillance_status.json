@@ -1,14 +1,14 @@
 {
-  "run_date": "2026-06-18",
+  "run_date": "2026-06-22",
   "lookback_days": 14,
-  "added_total": 18,
-  "booster_row_added_or_reordered": true,
-  "records_reclassified_to_booster": 3,
+  "added_total": 19,
+  "booster_row_added_or_reordered": false,
+  "records_reclassified_to_booster": 0,
   "source_results": [
     {
       "source": "PubMed",
-      "candidates": 78,
-      "added": 10
+      "candidates": 68,
+      "added": 12
     },
     {
       "source": "medRxiv",
@@ -17,13 +17,13 @@
     },
     {
       "source": "ClinicalTrials.gov",
-      "candidates": 1,
+      "candidates": 2,
       "added": 1
     },
     {
       "source": "Crossref",
-      "candidates": 33,
-      "added": 7
+      "candidates": 36,
+      "added": 6
     },
     {
       "source": "Guidance/regulatory watchlist",
