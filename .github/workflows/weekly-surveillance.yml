@@ -1,0 +1,102 @@
+name: Weekly RSV evidence surveillance and deploy
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Monday at 13:17 UTC. The non-zero minute reduces top-of-hour congestion.
+    - cron: "17 13 * * 1"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: rsv-evidence-map-update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Run quality-controlled RSV source surveillance
+        env:
+          LOOKBACK_DAYS: "14"
+          NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
+        run: python scripts/update_sources.py
+
+      - name: Validate dashboard and active evidence records
+        run: python scripts/validate_site.py
+
+      - name: Commit updated data and quality-control logs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data updates
+          if git diff --cached --quiet; then
+            echo "No evidence-data changes to commit"
+          else
+            git commit -m "Auto-update RSV evidence data with quality controls"
+
+            # Rebase immediately before pushing so a concurrent manual edit does not
+            # create a non-fast-forward failure. Retry twice if the branch changes again.
+            pushed=false
+            for attempt in 1 2 3; do
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then
+                pushed=true
+                break
+              fi
+              echo "Push attempt ${attempt} failed; retrying after a short delay"
+              sleep $((attempt * 3))
+            done
+            if [ "$pushed" != "true" ]; then
+              echo "Could not push updated evidence data after three attempts" >&2
+              exit 1
+            fi
+          fi
+
+      - name: Build GitHub Pages artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf _site
+          mkdir -p _site
+          cp index.html _site/index.html
+          cp -r data _site/data
+          if [ -d methods ]; then cp -r methods _site/methods; fi
+          if [ -d updates ]; then cp -r updates _site/updates; fi
+          touch _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
