@@ -1,5 +1,43 @@
 {
-  "run_date": "2026-06-22",
-  "candidate_count": 0,
-  "candidates": []
+  "run_date": "2026-06-24",
+  "candidate_count": 1,
+  "added": 1,
+  "off_topic_rejected": 0,
+  "future_dated_quarantined": 0,
+  "candidates": [
+    {
+      "id": "AUTO-MEDRXIV-10-64898-2026-06-05-26354236",
+      "matrix_row": "Maternal active vaccination",
+      "matrix_column": "Translational / preclinical",
+      "year": 2026,
+      "citation": "Jones, L.; Ergas, R.; Tibbs, A.; Russo, E. T.; Norville, J.; Bingay, B.; Brown, C. M.; Reich, N. G.; Pasco, R., medRxiv 2026-06-10; auto-added",
+      "title": "Modeling the Impact of Pediatric RSV Immunization in Massachusetts, 2024--2025",
+      "authors_source": "Jones, L.; Ergas, R.; Tibbs, A.; Russo, E. T.; Norville, J.; Bingay, B.; Brown, C. M.; Reich, N. G.; Pasco, R.",
+      "study_design": "Preprint; study design algorithmically inferred from title/abstract and not independently validated",
+      "population": "Pregnant people / infants",
+      "product_platform": "Maternal RSV vaccine",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "BackgroundPediatric immunizations for Respiratory Syncytial Virus (RSV), including monoclonal antibodies for infants and vaccines for pregnant people, have become broadly available and can prevent severe RSV outcomes in infants. However, quantifying the impact of RSV immunization in prevention of severe pediatric illness at the population-level is limited by lack of RSV case surveillance data. The Massachusetts Department of Public Health (DPH) conducted a modeling analysis using routine public health surveillance data to estimate the state-level impact of new RSV immunization products on Emer …",
+      "evidence_signal": "Automated medRxiv preprint inclusion; not manually verified.",
+      "actionability": "Automated evidence signal. Inspect the source before clinical, policy, or research decisions.",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.06.05.26354236",
+      "tags": "auto-added; medRxiv; preprint; DOI 10.64898/2026.06.05.26354236; QC 2026-06-qc1",
+      "evidence_update_date": "2026-06-10",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "medRxiv API preprint date within automated lookback window",
+      "map_record_updated": "2026-06-24",
+      "provenance": "Automated",
+      "pmid": "",
+      "doi": "10.64898/2026.06.05.26354236",
+      "article_types": [],
+      "mesh_terms": [],
+      "species": "Not specified",
+      "quality_status": "Source-specific automated validation; not manually verified",
+      "quality_flags": [
+        "preprint",
+        "design_not_article_type_validated"
+      ],
+      "quality_control_version": "2026-06-qc1"
+    }
+  ]
 }
