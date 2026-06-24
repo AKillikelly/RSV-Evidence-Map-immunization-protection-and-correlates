@@ -1,0 +1,14 @@
+RSV evidence-map quality-control update
+
+Replace these repository files:
+- index.html
+- scripts/update_sources.py
+- scripts/validate_site.py
+- .github/workflows/weekly-surveillance.yml
+- methods/search_strategy.md
+
+Documentation:
+- README_QUALITY_CONTROL_UPDATE.md
+
+This package intentionally contains no data/*.json or data/*.csv files.
+The workflow audits the current data already in the repository.
