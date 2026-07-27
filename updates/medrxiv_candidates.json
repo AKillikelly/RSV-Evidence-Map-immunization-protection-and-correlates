@@ -1,8 +1,43 @@
 {
-  "run_date": "2026-07-20",
-  "candidate_count": 0,
+  "run_date": "2026-07-27",
+  "candidate_count": 1,
   "added": 0,
   "off_topic_rejected": 0,
   "future_dated_quarantined": 0,
-  "candidates": []
+  "candidates": [
+    {
+      "id": "AUTO-MEDRXIV-10-64898-2026-07-08-26357577",
+      "matrix_row": "Adult active vaccination",
+      "matrix_column": "Evidence synthesis / guidance",
+      "year": 2026,
+      "citation": "Oliver, V. L.; Carlin, J. B.; Wang, Y.; Spirkoska, V.; Marcato, A.; Carville, K. S.; Moss, R.; Price, D. J.; Campbell, P. T.; McVernon, J.; Carvalho, N., medRxiv 2026-07-13; auto-added",
+      "title": "Cost-effectiveness of respiratory syncytial virus vaccination for older adults: a modelling analysis",
+      "authors_source": "Oliver, V. L.; Carlin, J. B.; Wang, Y.; Spirkoska, V.; Marcato, A.; Carville, K. S.; Moss, R.; Price, D. J.; Campbell, P. T.; McVernon, J.; Carvalho, N.",
+      "study_design": "Preprint; study design algorithmically inferred from title/abstract and not independently validated",
+      "population": "Adults / older adults",
+      "product_platform": "Adult RSV vaccine",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "BackgroundEvidence of the effectiveness and cost-effectiveness of new vaccines that reduce the burden of respiratory syncytial virus (RSV) in older populations is emerging. The reported cost-effectiveness of these vaccination strategies varies substantially across different settings. This study assessed the cost-effectiveness of older adult-targeted RSV vaccination strategies in the Australian context and compared findings with published evaluations.\n\nMethodsWe developed an individual-based dynamic transmission model of RSV infection, linked to a clinical pathways and cost-effectiveness model. …",
+      "evidence_signal": "Automated medRxiv preprint inclusion; not manually verified.",
+      "actionability": "Automated evidence signal. Inspect the source before clinical, policy, or research decisions.",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.07.08.26357577",
+      "tags": "auto-added; medRxiv; preprint; DOI 10.64898/2026.07.08.26357577; QC 2026-06-qc1",
+      "evidence_update_date": "2026-07-13",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "medRxiv API preprint date within automated lookback window",
+      "map_record_updated": "2026-07-27",
+      "provenance": "Automated",
+      "pmid": "",
+      "doi": "10.64898/2026.07.08.26357577",
+      "article_types": [],
+      "mesh_terms": [],
+      "species": "Not specified",
+      "quality_status": "Source-specific automated validation; not manually verified",
+      "quality_flags": [
+        "preprint",
+        "design_not_article_type_validated"
+      ],
+      "quality_control_version": "2026-06-qc1"
+    }
+  ]
 }
