@@ -1,36 +1,36 @@
 {
   "quality_control_version": "2026-06-qc1",
-  "run_date": "2026-08-03",
-  "pre_run_active_records": 547,
-  "post_repair_active_records": 542,
-  "final_active_records": 598,
+  "run_date": "2026-08-10",
+  "pre_run_active_records": 598,
+  "post_repair_active_records": 596,
+  "final_active_records": 635,
   "active_curated_records": 48,
-  "active_auto_records": 550,
+  "active_auto_records": 587,
   "rows_changed": false,
   "repair_stats": {
     "curated_preserved": 48,
-    "pubmed_reclassified": 41,
-    "doi_pmid_crosswalked": 0,
+    "pubmed_reclassified": 52,
+    "doi_pmid_crosswalked": 2,
     "off_topic_quarantined": 0,
     "future_dated_quarantined": 0,
-    "missing_rsv_mesh_quarantined": 5,
+    "missing_rsv_mesh_quarantined": 2,
     "duplicates_quarantined": 0,
     "pending_pubmed_metadata": 0
   },
   "quarantine_category_counts": {
-    "future_dated": 75,
-    "missing_rsv_mesh": 175,
+    "future_dated": 82,
+    "missing_rsv_mesh": 177,
     "off_topic_resveratrol": 5,
-    "duplicate": 414
+    "duplicate": 459
   },
-  "new_records_added": 56,
+  "new_records_added": 39,
   "source_results": [
     {
       "source": "PubMed",
-      "candidates": 163,
-      "added": 43,
+      "candidates": 106,
+      "added": 32,
       "rejected_missing_rsv_mesh": 0,
-      "future_dated_quarantined": 16
+      "future_dated_quarantined": 14
     },
     {
       "source": "medRxiv",
@@ -41,15 +41,15 @@
     },
     {
       "source": "ClinicalTrials.gov",
-      "candidates": 4,
-      "added": 1,
+      "candidates": 2,
+      "added": 2,
       "future_dated_quarantined": 0
     },
     {
       "source": "Crossref",
-      "candidates": 32,
-      "added": 12,
-      "pmid_doi_crosswalked": 11,
+      "candidates": 22,
+      "added": 5,
+      "pmid_doi_crosswalked": 6,
       "off_topic_rejected": 0,
       "future_dated_quarantined": 2
     },
