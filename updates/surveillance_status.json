@@ -1,36 +1,36 @@
 {
   "quality_control_version": "2026-06-qc1",
-  "run_date": "2026-08-24",
-  "pre_run_active_records": 669,
-  "post_repair_active_records": 668,
-  "final_active_records": 684,
+  "run_date": "2026-08-31",
+  "pre_run_active_records": 684,
+  "post_repair_active_records": 677,
+  "final_active_records": 732,
   "active_curated_records": 48,
-  "active_auto_records": 636,
+  "active_auto_records": 684,
   "rows_changed": false,
   "repair_stats": {
     "curated_preserved": 48,
-    "pubmed_reclassified": 11,
-    "doi_pmid_crosswalked": 0,
+    "pubmed_reclassified": 116,
+    "doi_pmid_crosswalked": 1,
     "off_topic_quarantined": 0,
     "future_dated_quarantined": 0,
-    "missing_rsv_mesh_quarantined": 1,
+    "missing_rsv_mesh_quarantined": 7,
     "duplicates_quarantined": 0,
-    "pending_pubmed_metadata": 100
+    "pending_pubmed_metadata": 0
   },
   "quarantine_category_counts": {
-    "future_dated": 88,
-    "missing_rsv_mesh": 181,
+    "future_dated": 95,
+    "missing_rsv_mesh": 188,
     "off_topic_resveratrol": 5,
-    "duplicate": 527
+    "duplicate": 549
   },
-  "new_records_added": 16,
+  "new_records_added": 55,
   "source_results": [
     {
       "source": "PubMed",
-      "candidates": 200,
-      "added": 12,
+      "candidates": 104,
+      "added": 43,
       "rejected_missing_rsv_mesh": 0,
-      "future_dated_quarantined": 24
+      "future_dated_quarantined": 11
     },
     {
       "source": "medRxiv",
@@ -41,17 +41,17 @@
     },
     {
       "source": "ClinicalTrials.gov",
-      "candidates": 3,
-      "added": 0,
+      "candidates": 2,
+      "added": 1,
       "future_dated_quarantined": 0
     },
     {
       "source": "Crossref",
-      "candidates": 16,
-      "added": 4,
-      "pmid_doi_crosswalked": 2,
+      "candidates": 17,
+      "added": 11,
+      "pmid_doi_crosswalked": 1,
       "off_topic_rejected": 0,
-      "future_dated_quarantined": 0
+      "future_dated_quarantined": 2
     },
     {
       "source": "Guidance/regulatory watchlist",
