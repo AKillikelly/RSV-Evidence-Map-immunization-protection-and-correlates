@@ -1,102 +1,102 @@
 {
-  "run_date": "2026-10-05",
+  "run_date": "2026-10-12",
   "pages": {
     "https://www.cdc.gov/rsv/hcp/vaccine-clinical-guidance/adults.html": {
       "name": "CDC adult RSV vaccine clinical guidance",
       "source_group": "CDC / ACIP",
       "sha256": "",
-      "checked_date": "2026-10-05",
+      "checked_date": "2026-10-12",
       "status": "fetch_failed"
     },
     "https://www.cdc.gov/rsv/hcp/vaccine-clinical-guidance/infants-young-children.html": {
       "name": "CDC RSV immunization guidance for infants and young children",
       "source_group": "CDC / ACIP",
       "sha256": "",
-      "checked_date": "2026-10-05",
+      "checked_date": "2026-10-12",
       "status": "fetch_failed"
     },
     "https://www.cdc.gov/rsv/hcp/vaccine-clinical-guidance/pregnant-people.html": {
       "name": "CDC RSV vaccine guidance during pregnancy",
       "source_group": "CDC / ACIP",
       "sha256": "",
-      "checked_date": "2026-10-05",
+      "checked_date": "2026-10-12",
       "status": "fetch_failed"
     },
     "https://www.cdc.gov/acip/vaccine-recommendations/index.html": {
       "name": "CDC ACIP RSV recommendations",
       "source_group": "CDC / ACIP",
       "sha256": "",
-      "checked_date": "2026-10-05",
+      "checked_date": "2026-10-12",
       "status": "fetch_failed"
     },
     "https://www.fda.gov/vaccines-blood-biologics/vaccines/respiratory-syncytial-virus-rsv": {
       "name": "FDA respiratory syncytial virus vaccines",
       "source_group": "FDA",
       "sha256": "",
-      "checked_date": "2026-10-05",
+      "checked_date": "2026-10-12",
       "status": "fetch_failed"
     },
     "https://www.who.int/news-room/fact-sheets/detail/respiratory-syncytial-virus-(rsv)": {
       "name": "WHO respiratory syncytial virus fact sheet",
       "source_group": "WHO",
-      "sha256": "cf63f663635780e9995b89dc39e6452d14dd9587c35f66703a25d4719f194951",
-      "checked_date": "2026-10-05",
+      "sha256": "8286b8bd84ba557a9ef359fa043c2981adf9d74ac8a4b252587ecc558334b92b",
+      "checked_date": "2026-10-12",
       "status": "fetched"
     },
     "https://www.who.int/publications/i/item/who-wer10024-277-300": {
       "name": "WHO RSV infant immunization position paper",
       "source_group": "WHO",
       "sha256": "",
-      "checked_date": "2026-10-05",
+      "checked_date": "2026-10-12",
       "status": "fetch_failed"
     },
     "https://www.ema.europa.eu/en/medicines/human/EPAR/arexvy": {
       "name": "EMA Arexvy",
       "source_group": "EMA",
-      "sha256": "6101fdb8db28bf20a4798d7e4c3f2fce5e8fb58e8431828b01f235af390d00ed",
-      "checked_date": "2026-10-05",
+      "sha256": "cd02ef6c7be1deb9c12a4cec4b21c5d4abe32b1689910a827e6417c054cbf142",
+      "checked_date": "2026-10-12",
       "status": "fetched"
     },
     "https://www.ema.europa.eu/en/medicines/human/EPAR/abrysvo": {
       "name": "EMA Abrysvo",
       "source_group": "EMA",
-      "sha256": "4d0c68aded5f3aa1e313d72c0bd9bff16c5df65581188c4b8734b8ae7b243220",
-      "checked_date": "2026-10-05",
+      "sha256": "6b883755437d6b336589bc240097967bc0c0fc100d1b3433433f04a8e892094a",
+      "checked_date": "2026-10-12",
       "status": "fetched"
     },
     "https://www.ema.europa.eu/en/medicines/human/EPAR/beyfortus": {
       "name": "EMA Beyfortus",
       "source_group": "EMA",
-      "sha256": "dd8d521c8549f08ef5fd2ac4d3adfdcf09c1586e29774fbfe32ff974ed753d35",
-      "checked_date": "2026-10-05",
+      "sha256": "55baef1b281b668261233841c246f7d30d11c0f5d5797babaf16507373919f79",
+      "checked_date": "2026-10-12",
       "status": "fetched"
     },
     "https://www.canada.ca/en/public-health/services/immunization-vaccines/vaccination-respiratory-syncytial-virus.html": {
       "name": "PHAC RSV vaccines and monoclonal antibodies",
       "source_group": "PHAC / NACI",
       "sha256": "",
-      "checked_date": "2026-10-05",
+      "checked_date": "2026-10-12",
       "status": "fetch_failed"
     },
     "https://www.canada.ca/en/public-health/services/immunization/national-advisory-committee-on-immunization-naci.html": {
       "name": "NACI RSV statement collection",
       "source_group": "PHAC / NACI",
       "sha256": "",
-      "checked_date": "2026-10-05",
+      "checked_date": "2026-10-12",
       "status": "fetch_failed"
     },
     "https://www.gov.uk/government/collections/respiratory-syncytial-virus-rsv-vaccination-programme": {
       "name": "UKHSA RSV vaccination programme",
       "source_group": "UKHSA / JCVI",
-      "sha256": "19e12ed283c28836b3efd2364a906c62721b425765e53abe536b6521b3ed5e4e",
-      "checked_date": "2026-10-05",
+      "sha256": "0ae3d42221be01926a23aed3140ab49aae613b9b25337a2411047ee73ca4ec7f",
+      "checked_date": "2026-10-12",
       "status": "fetched"
     },
     "https://www.gov.uk/government/groups/joint-committee-on-vaccination-and-immunisation": {
       "name": "JCVI statements and advice",
       "source_group": "UKHSA / JCVI",
-      "sha256": "880c402125976fd5cc9560a6bfc96adbe8aa1bbb160d4d6880eed743d1aef1b7",
-      "checked_date": "2026-10-05",
+      "sha256": "d07caff33b937faafff0c8ed45a45c97220db2fc8d97f473bb836bca8df1860c",
+      "checked_date": "2026-10-12",
       "status": "fetched"
     }
   }
