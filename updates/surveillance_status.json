@@ -1,57 +1,57 @@
 {
   "quality_control_version": "2026-06-qc1",
-  "run_date": "2026-10-26",
-  "pre_run_active_records": 1165,
-  "post_repair_active_records": 1163,
-  "final_active_records": 1194,
+  "run_date": "2026-11-02",
+  "pre_run_active_records": 1194,
+  "post_repair_active_records": 1191,
+  "final_active_records": 1281,
   "active_curated_records": 48,
-  "active_auto_records": 1146,
+  "active_auto_records": 1233,
   "rows_changed": false,
   "repair_stats": {
     "curated_preserved": 48,
-    "pubmed_reclassified": 29,
-    "doi_pmid_crosswalked": 0,
+    "pubmed_reclassified": 28,
+    "doi_pmid_crosswalked": 3,
     "off_topic_quarantined": 0,
     "future_dated_quarantined": 0,
-    "missing_rsv_mesh_quarantined": 2,
+    "missing_rsv_mesh_quarantined": 3,
     "duplicates_quarantined": 0,
     "pending_pubmed_metadata": 0
   },
   "quarantine_category_counts": {
-    "future_dated": 135,
-    "missing_rsv_mesh": 208,
+    "future_dated": 138,
+    "missing_rsv_mesh": 211,
     "off_topic_resveratrol": 5,
-    "duplicate": 1087
+    "duplicate": 1129
   },
-  "new_records_added": 31,
+  "new_records_added": 90,
   "source_results": [
     {
       "source": "PubMed",
-      "candidates": 85,
-      "added": 24,
+      "candidates": 151,
+      "added": 76,
       "rejected_missing_rsv_mesh": 0,
-      "future_dated_quarantined": 16
+      "future_dated_quarantined": 6
     },
     {
       "source": "medRxiv",
-      "candidates": 0,
-      "added": 0,
+      "candidates": 1,
+      "added": 1,
       "off_topic_rejected": 0,
       "future_dated_quarantined": 0
     },
     {
       "source": "ClinicalTrials.gov",
-      "candidates": 4,
-      "added": 2,
+      "candidates": 3,
+      "added": 3,
       "future_dated_quarantined": 0
     },
     {
       "source": "Crossref",
-      "candidates": 19,
-      "added": 5,
-      "pmid_doi_crosswalked": 6,
+      "candidates": 18,
+      "added": 10,
+      "pmid_doi_crosswalked": 4,
       "off_topic_rejected": 0,
-      "future_dated_quarantined": 4
+      "future_dated_quarantined": 0
     },
     {
       "source": "Guidance/regulatory watchlist",

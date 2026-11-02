@@ -1,8 +1,43 @@
 {
-  "run_date": "2026-10-26",
-  "candidate_count": 0,
-  "added": 0,
+  "run_date": "2026-11-02",
+  "candidate_count": 1,
+  "added": 1,
   "off_topic_rejected": 0,
   "future_dated_quarantined": 0,
-  "candidates": []
+  "candidates": [
+    {
+      "id": "AUTO-MEDRXIV-10-64898-2026-10-15-26365672",
+      "matrix_row": "Adult active vaccination",
+      "matrix_column": "Translational / preclinical",
+      "year": 2026,
+      "citation": "Hoffman, K. L.; Weil, A. A.; Wetzler, E. A.; Akinola, B. O.; Beauge, A.; Andy, C.; Adams, A.; Frivold, C.; Cox, S. N.; Ehmen, B.; Hatchie, T.; Clark, E. L.; Drummond, M.; Englund, J.; Han, P. D.; Kuntz, J. L.; Lo, N. C.; Lockwood, C.; Starita, L.; Mularski, R. A.; Naleway, A. L.; Carone, M.; Chu, H. Y., medRxiv 2026-10-19; auto-added",
+      "title": "Interactions between respiratory viruses in US adults and children: a prospective cohort study",
+      "authors_source": "Hoffman, K. L.; Weil, A. A.; Wetzler, E. A.; Akinola, B. O.; Beauge, A.; Andy, C.; Adams, A.; Frivold, C.; Cox, S. N.; Ehmen, B.; Hatchie, T.; Clark, E. L.; Drummond, M.; Englund, J.; Han, P. D.; Kuntz, J. L.; Lo, N. C.; Lockwood, C.; Starita, L.; Mularski, R. A.; Naleway, A. L.; Carone, M.; Chu, H. Y.",
+      "study_design": "Preprint; study design algorithmically inferred from title/abstract and not independently validated",
+      "population": "Adults / older adults",
+      "product_platform": "Adult RSV vaccine",
+      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
+      "key_finding": "BackgroundThe relationship between recent viral infection and subsequent susceptibility to, or protection against, other viruses remains unclear, particularly across age groups and symptom status.\n\nMethodsA prospective cohort study enrolled participants aged 6 months to 49 years in Washington and Oregon, USA, 2022-2024. Weekly nasal swabs were tested for SARS-CoV-2, respiratory syncytial virus (RSV), and influenza A/B; additional swabs were collected during symptomatic illness and were also tested for parainfluenza (PIV) 1-4, endemic human coronaviruses (hCOV), adenovirus, human metapneumoviru …",
+      "evidence_signal": "Automated medRxiv preprint inclusion; not manually verified.",
+      "actionability": "Automated evidence signal. Inspect the source before clinical, policy, or research decisions.",
+      "source_url": "https://www.medrxiv.org/content/10.64898/2026.10.15.26365672",
+      "tags": "auto-added; medRxiv; preprint; DOI 10.64898/2026.10.15.26365672; QC 2026-06-qc1",
+      "evidence_update_date": "2026-10-19",
+      "evidence_update_precision": "day",
+      "evidence_update_basis": "medRxiv API preprint date within automated lookback window",
+      "map_record_updated": "2026-11-02",
+      "provenance": "Automated",
+      "pmid": "",
+      "doi": "10.64898/2026.10.15.26365672",
+      "article_types": [],
+      "mesh_terms": [],
+      "species": "Not specified",
+      "quality_status": "Source-specific automated validation; not manually verified",
+      "quality_flags": [
+        "preprint",
+        "design_not_article_type_validated"
+      ],
+      "quality_control_version": "2026-06-qc1"
+    }
+  ]
 }
