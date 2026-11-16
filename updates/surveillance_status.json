@@ -1,57 +1,57 @@
 {
   "quality_control_version": "2026-06-qc1",
-  "run_date": "2026-11-09",
-  "pre_run_active_records": 1281,
-  "post_repair_active_records": 1279,
-  "final_active_records": 1366,
+  "run_date": "2026-11-16",
+  "pre_run_active_records": 1366,
+  "post_repair_active_records": 1363,
+  "final_active_records": 1419,
   "active_curated_records": 48,
-  "active_auto_records": 1318,
+  "active_auto_records": 1371,
   "rows_changed": false,
   "repair_stats": {
     "curated_preserved": 48,
-    "pubmed_reclassified": 85,
+    "pubmed_reclassified": 91,
     "doi_pmid_crosswalked": 1,
     "off_topic_quarantined": 0,
     "future_dated_quarantined": 0,
-    "missing_rsv_mesh_quarantined": 2,
+    "missing_rsv_mesh_quarantined": 3,
     "duplicates_quarantined": 0,
     "pending_pubmed_metadata": 0
   },
   "quarantine_category_counts": {
-    "future_dated": 143,
-    "missing_rsv_mesh": 213,
+    "future_dated": 146,
+    "missing_rsv_mesh": 216,
     "off_topic_resveratrol": 5,
-    "duplicate": 1187
+    "duplicate": 1269
   },
-  "new_records_added": 87,
+  "new_records_added": 56,
   "source_results": [
     {
       "source": "PubMed",
       "candidates": 200,
-      "added": 78,
+      "added": 43,
       "rejected_missing_rsv_mesh": 0,
-      "future_dated_quarantined": 11
+      "future_dated_quarantined": 13
     },
     {
       "source": "medRxiv",
-      "candidates": 1,
-      "added": 1,
+      "candidates": 0,
+      "added": 0,
       "off_topic_rejected": 0,
       "future_dated_quarantined": 0
     },
     {
       "source": "ClinicalTrials.gov",
-      "candidates": 3,
-      "added": 1,
+      "candidates": 5,
+      "added": 5,
       "future_dated_quarantined": 0
     },
     {
       "source": "Crossref",
-      "candidates": 24,
-      "added": 7,
-      "pmid_doi_crosswalked": 4,
+      "candidates": 23,
+      "added": 8,
+      "pmid_doi_crosswalked": 7,
       "off_topic_rejected": 0,
-      "future_dated_quarantined": 3
+      "future_dated_quarantined": 4
     },
     {
       "source": "Guidance/regulatory watchlist",

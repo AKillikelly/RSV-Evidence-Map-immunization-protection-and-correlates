@@ -1,43 +1,8 @@
 {
-  "run_date": "2026-11-09",
-  "candidate_count": 1,
-  "added": 1,
+  "run_date": "2026-11-16",
+  "candidate_count": 0,
+  "added": 0,
   "off_topic_rejected": 0,
   "future_dated_quarantined": 0,
-  "candidates": [
-    {
-      "id": "AUTO-MEDRXIV-10-64898-2026-10-23-26366351",
-      "matrix_row": "Adult active vaccination",
-      "matrix_column": "Evidence synthesis / guidance",
-      "year": 2026,
-      "citation": "Albrecht, S.; Smith, E.; Yeo, H. Y.; Park, J. Y.; Gul, A.; Hills, I.; Hilder, J.; Tester, R.; David, M.; Weiss, E.; Wilson, E.; Stubbe, M.; Marsh, S.; Castelino, L.; Turner, N.; Dowell, A. C.; Paynter, J., medRxiv 2026-10-26; auto-added",
-      "title": "Population-scale machine learning models to estimate individual-level risk for acute respiratory infection",
-      "authors_source": "Albrecht, S.; Smith, E.; Yeo, H. Y.; Park, J. Y.; Gul, A.; Hills, I.; Hilder, J.; Tester, R.; David, M.; Weiss, E.; Wilson, E.; Stubbe, M.; Marsh, S.; Castelino, L.; Turner, N.; Dowell, A. C.; Paynter, J.",
-      "study_design": "Preprint; study design algorithmically inferred from title/abstract and not independently validated",
-      "population": "Adults / older adults",
-      "product_platform": "Adult RSV vaccine",
-      "outcome_domain": "RSV prevention, immunization, protection, safety, policy, or implementation signal",
-      "key_finding": "Summary / AbstractO_ST_ABSBackgroundC_ST_ABSModels based on administrative population health records can help improve understanding of disease and hospitalisation risk. This understanding can support evidence-based population health policy and processes. Influenza and other acute respiratory diseases place a large, inequitable burden on the New Zealand population and health care resources. We have developed and evaluated models using retrospective New Zealand hospitalisation records linked to other administrative data.\n\nMethodsWe analysed linked annual records for approximately 4{middle dot}85 …",
-      "evidence_signal": "Automated medRxiv preprint inclusion; not manually verified.",
-      "actionability": "Automated evidence signal. Inspect the source before clinical, policy, or research decisions.",
-      "source_url": "https://www.medrxiv.org/content/10.64898/2026.10.23.26366351",
-      "tags": "auto-added; medRxiv; preprint; DOI 10.64898/2026.10.23.26366351; QC 2026-06-qc1",
-      "evidence_update_date": "2026-10-26",
-      "evidence_update_precision": "day",
-      "evidence_update_basis": "medRxiv API preprint date within automated lookback window",
-      "map_record_updated": "2026-11-09",
-      "provenance": "Automated",
-      "pmid": "",
-      "doi": "10.64898/2026.10.23.26366351",
-      "article_types": [],
-      "mesh_terms": [],
-      "species": "Not specified",
-      "quality_status": "Source-specific automated validation; not manually verified",
-      "quality_flags": [
-        "preprint",
-        "design_not_article_type_validated"
-      ],
-      "quality_control_version": "2026-06-qc1"
-    }
-  ]
+  "candidates": []
 }
