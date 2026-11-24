@@ -1,36 +1,36 @@
 {
   "quality_control_version": "2026-06-qc1",
-  "run_date": "2026-11-16",
-  "pre_run_active_records": 1366,
-  "post_repair_active_records": 1363,
-  "final_active_records": 1419,
+  "run_date": "2026-11-24",
+  "pre_run_active_records": 1419,
+  "post_repair_active_records": 1418,
+  "final_active_records": 1518,
   "active_curated_records": 48,
-  "active_auto_records": 1371,
+  "active_auto_records": 1470,
   "rows_changed": false,
   "repair_stats": {
     "curated_preserved": 48,
-    "pubmed_reclassified": 91,
-    "doi_pmid_crosswalked": 1,
+    "pubmed_reclassified": 47,
+    "doi_pmid_crosswalked": 0,
     "off_topic_quarantined": 0,
     "future_dated_quarantined": 0,
-    "missing_rsv_mesh_quarantined": 3,
+    "missing_rsv_mesh_quarantined": 1,
     "duplicates_quarantined": 0,
     "pending_pubmed_metadata": 0
   },
   "quarantine_category_counts": {
-    "future_dated": 146,
-    "missing_rsv_mesh": 216,
+    "future_dated": 150,
+    "missing_rsv_mesh": 217,
     "off_topic_resveratrol": 5,
-    "duplicate": 1269
+    "duplicate": 1319
   },
-  "new_records_added": 56,
+  "new_records_added": 100,
   "source_results": [
     {
       "source": "PubMed",
       "candidates": 200,
-      "added": 43,
+      "added": 92,
       "rejected_missing_rsv_mesh": 0,
-      "future_dated_quarantined": 13
+      "future_dated_quarantined": 8
     },
     {
       "source": "medRxiv",
@@ -41,22 +41,22 @@
     },
     {
       "source": "ClinicalTrials.gov",
-      "candidates": 5,
-      "added": 5,
+      "candidates": 4,
+      "added": 3,
       "future_dated_quarantined": 0
     },
     {
       "source": "Crossref",
-      "candidates": 23,
-      "added": 8,
-      "pmid_doi_crosswalked": 7,
+      "candidates": 18,
+      "added": 5,
+      "pmid_doi_crosswalked": 4,
       "off_topic_rejected": 0,
-      "future_dated_quarantined": 4
+      "future_dated_quarantined": 2
     },
     {
       "source": "Guidance/regulatory watchlist",
       "candidates": 14,
-      "changes": 3,
+      "changes": 4,
       "added": 0
     }
   ]
